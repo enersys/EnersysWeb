@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/advance-slider",
+  "title": "Advance Slider",
+  "category": "gutenify",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "hasPagination": false,
+        "hasNavigation": true,
+        "columns": 1,
+        "spaceBetween": 0,
+        "arrows": {
+          "type": "style-1",
+          "backgroundColor": "#fff",
+          "normalColor": "#000"
+        },
+        "paginations": {
+          "width": "15px",
+          "height": "15px",
+          "borderWidth": "3px",
+          "borderRadius": "50px",
+          "backgroundColor": "#fff"
+        }
+      }
+    }
+  },
+  "editorScript": "gutenify-advance-slider-editor",
+  "editorStyle": "gutenify-advance-slider-editor",
+  "style": "gutenify-advance-slider-frontend"
+}

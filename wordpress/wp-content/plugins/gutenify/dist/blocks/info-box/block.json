@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/info-box",
+  "category": "gutenify",
+  "title": "Info Box",
+  "version": "2",
+  "attributes": {
+    "className": {
+      "type": "string",
+      "default": "apple"
+    },
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "#fff",
+        "padding": {
+          "desktop": {
+            "top": "40px",
+            "right": "40px",
+            "bottom": "40px",
+            "left": "40px"
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    },
+    "iconAlign": {
+      "type": "string"
+    },
+    "titleAlign": {
+      "type": "string"
+    },
+    "borderRadius": {
+      "type": "string",
+      "default": 0
+    },
+    "borderWidth": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "editorScript": "gutenify-info-box-editor",
+  "editorStyle": "gutenify-info-box-editor",
+  "style": "gutenify-info-box-frontend"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/service",
+  "category": "gutenify",
+  "title": "Service",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "desktop": {
+            "top": "20px",
+            "bottom": "20px",
+            "left": "20px",
+            "right": "20px"
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    },
+    "columnSize": {
+      "type": "number",
+      "default": 2
+    },
+    "hideButtons": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": "gutenify-service-editor",
+  "editorStyle": "gutenify-service-editor",
+  "style": "gutenify-service-frontend"
+}

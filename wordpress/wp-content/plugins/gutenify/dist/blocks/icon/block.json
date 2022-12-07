@@ -1,0 +1,69 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/icon",
+  "category": "gutenify",
+  "title": "Icon",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {}
+    },
+    "contentJustification": {
+      "type": "string",
+      "default": "center"
+    },
+    "url": {
+      "type": "string"
+    },
+    "linkTarget": {
+      "type": "string"
+    },
+    "rel": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "default": "icon"
+    },
+    "iconName": {
+      "type": "string",
+      "default": "fas fa-star"
+    },
+    "size": {
+      "type": "Number",
+      "default": 40
+    },
+    "iconImage": {
+      "type": "object"
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "thumbnail"
+    },
+    "customSize": {
+      "type": "boolean",
+      "default": true
+    },
+    "borderRadius": {
+      "type": "string",
+      "default": 0
+    },
+    "borderWidth": {
+      "type": "Number",
+      "default": 0
+    },
+    "padding": {
+      "type": "Number",
+      "default": 0
+    }
+  },
+  "editorScript": "gutenify-icon-editor",
+  "editorStyle": "gutenify-icon-editor",
+  "style": "gutenify-icon-frontend"
+}

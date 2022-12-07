@@ -1,0 +1,42 @@
+<?php
+
+require 'helpers.php';
+require 'typography-helpers.php';
+require 'get-dynamic-blocks.php';
+require 'class-block-inline-styles.php';
+require 'class-block-assets.php';
+require 'class-templates.php';
+require 'class-rest.php';
+require 'class-actions.php';
+require 'class-admin-menu.php';
+include 'styles.php';
+include 'demo-importer.php';
+
+// Blocks
+require 'blocks/advance-slide-item.php';
+require 'blocks/advance-slider.php';
+require 'blocks/button.php';
+require 'blocks/buttons.php';
+require 'blocks/container.php';
+require 'blocks/content-toggle-item.php';
+require 'blocks/faqs.php';
+require 'blocks/gallery-carousel.php';
+require 'blocks/grid-item.php';
+require 'blocks/grid.php';
+require 'blocks/icon.php';
+require 'blocks/info-box.php';
+require 'blocks/map.php';
+require 'blocks/post-carousel.php';
+require 'blocks/post-list.php';
+require 'blocks/section-title.php';
+require 'blocks/service.php';
+require 'blocks/slide-item.php';
+require 'blocks/slider.php';
+require 'blocks/star-rating.php';
+require 'blocks/team-member.php';
+require 'blocks/team.php';
+require 'blocks/templates-browser.php';
+require 'blocks/testimonial.php';
+require 'blocks/testimonials.php';
+require 'blocks/wc-product-carousel.php';
+require 'blocks/wc-product-list.php';

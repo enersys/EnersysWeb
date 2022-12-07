@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/team",
+  "category": "gutenify",
+  "title": "Team",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "desktop": {
+            "top": "20px",
+            "bottom": "20px",
+            "left": "20px",
+            "right": "20px"
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    },
+    "containerSize": {
+      "type": "string",
+      "default": "center"
+    },
+    "columnSize": {
+      "type": "number",
+      "default": 2
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "html": false,
+    "align": [
+      "center",
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": "gutenify-team-editor",
+  "editorStyle": "gutenify-team-editor",
+  "style": "gutenify-team-frontend"
+}

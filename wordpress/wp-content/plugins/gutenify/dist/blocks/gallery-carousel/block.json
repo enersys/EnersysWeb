@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/gallery-carousel",
+  "category": "gutenify",
+  "title": "Gallery Carousel",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "buttonBorderWidth": 1,
+        "buttonBorderRadius": 0
+      }
+    },
+    "images": {
+      "type": "array",
+      "default": []
+    },
+    "imagesData": {
+      "type": "object",
+      "default": {}
+    },
+    "columns": {
+      "type": "number",
+      "default": 1
+    },
+    "spaceBetween": {
+      "type": "number",
+      "default": 10
+    },
+    "hasNavigation": {
+      "type": "boolean",
+      "default": true
+    },
+    "hasPagination": {
+      "type": "boolean",
+      "default": true
+    },
+    "isAutoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    }
+  },
+  "editorScript": "gutenify-gallery-carousel-editor",
+  "editorStyle": "gutenify-gallery-carousel-editor",
+  "style": "gutenify-gallery-carousel-frontend"
+}
