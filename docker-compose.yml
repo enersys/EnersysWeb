@@ -1,0 +1,30 @@
+version: "3"
+
+services: 
+ mysql_db: 
+    container_name: enersys-mysql
+    image: mysql
+    restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wordpress_database
+      MYSQL_USER: wordpress_user
+      MYSQL_PASSWORD: wordpress_password
+    volumes:
+      - mysql_vol:/var/lib/mysql
+ wordpress:
+  depends_on:
+    - mysql_db
+  image: wordpress:latest
+  restart: always
+  ports:
+    - "8000:80"
+  environment:
+    WORDPRESS_DB_HOST: mysql_db:3306
+    WORDPRESS_DB_USER: wordpress_user
+    WORDPRESS_DB_PASSWORD: wordpress_password
+    WORDPRESS_DB_NAME: wordpress_database
+  volumes:
+    ["./:/var/www/html"]  
+volumes:
+  mysql_vol: {}
