@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/grid-item",
+  "category": "gutenify",
+  "title": "Grid item",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "editorScript": "gutenify-grid-item-editor",
+  "editorStyle": "gutenify-grid-item-editor",
+  "style": "gutenify-grid-item-frontend"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "category": "gutenify",
+  "name": "gutenify/buttons",
+  "title": "Buttons",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {}
+    },
+    "contentJustification": {
+      "type": "string"
+    },
+    "orientation": {
+      "type": "string",
+      "default": "horizontal"
+    }
+  },
+  "editorScript": "gutenify-buttons-editor",
+  "editorStyle": "gutenify-buttons-editor",
+  "style": "gutenify-buttons-frontend"
+}

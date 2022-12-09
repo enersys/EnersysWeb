@@ -1,0 +1,1 @@
+.wp-block-gutenify-grid{--gutenify--grid-template-columns:3;display:grid;gap:40px;grid-template-columns:repeat(var(--gutenify--grid-template-columns),1fr);justify-content:space-between}@media screen and (max-width:1023px){.wp-block-gutenify-grid{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}}

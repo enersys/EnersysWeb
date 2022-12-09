@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/faqs",
+  "category": "gutenify",
+  "title": "Faqs",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {}
+    },
+    "initialOpenFirst": {
+      "type": "boolean",
+      "default": false
+    },
+    "initialOpenAll": {
+      "type": "boolean",
+      "default": true
+    },
+    "hasAccordion": {
+      "type": "boolean",
+      "default": true
+    },
+    "gap": {
+      "type": "string",
+      "default": "10px"
+    }
+  },
+  "editorScript": "gutenify-faqs-editor",
+  "editorStyle": "gutenify-faqs-editor",
+  "style": "gutenify-faqs-frontend"
+}

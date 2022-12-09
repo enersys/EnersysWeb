@@ -1,0 +1,85 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/section-title",
+  "category": "gutenify",
+  "title": "Section Title",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {}
+    },
+    "isSaved": {
+      "type": "boolean",
+      "default": false
+    },
+    "textAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "prefixContent": {
+      "type": "string",
+      "default": ""
+    },
+    "prefixColor": {
+      "type": "string",
+      "default": ""
+    },
+    "prefixFontSize": {
+      "type": "string",
+      "default": ""
+    },
+    "displayPrefix": {
+      "type": "boolean",
+      "default": true
+    },
+    "titleContent": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleFontSize": {
+      "type": "string",
+      "default": ""
+    },
+    "suffixContent": {
+      "type": "string",
+      "default": ""
+    },
+    "suffixColor": {
+      "type": "string",
+      "default": ""
+    },
+    "suffixFontSize": {
+      "type": "string",
+      "default": ""
+    },
+    "displaySuffix": {
+      "type": "boolean",
+      "default": true
+    },
+    "prefixTag": {
+      "type": "string",
+      "default": "p"
+    },
+    "titleTag": {
+      "type": "string",
+      "default": "h2"
+    },
+    "suffixTag": {
+      "type": "string",
+      "default": "p"
+    }
+  },
+  "editorScript": "gutenify-section-title-editor",
+  "editorStyle": "gutenify-section-title-editor",
+  "style": "gutenify-section-title-frontend"
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/testimonials",
+  "category": "gutenify",
+  "title": "Testimonials",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "textColor": "",
+        "padding": {
+          "desktop": {
+            "top": "20px",
+            "bottom": "20px",
+            "left": "20px",
+            "right": "20px"
+          }
+        }
+      }
+    },
+    "isSaved": {
+      "type": "boolean",
+      "default": false
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    },
+    "containerSize": {
+      "type": "string",
+      "default": "center"
+    },
+    "columnSize": {
+      "type": "number",
+      "default": 2
+    },
+    "hideRating": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": "gutenify-testimonials-editor",
+  "editorStyle": "gutenify-testimonials-editor",
+  "style": "gutenify-testimonials-frontend"
+}

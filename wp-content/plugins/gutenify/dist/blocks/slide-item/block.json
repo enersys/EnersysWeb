@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/slide-item",
+  "category": "gutenify",
+  "title": "Slide Item",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "",
+        "backgroundGradient": "",
+        "padding": {
+          "desktop": {}
+        }
+      }
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "gutenify-slide-item-editor"
+}

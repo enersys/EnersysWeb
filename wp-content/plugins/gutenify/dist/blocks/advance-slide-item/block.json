@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/advance-slide-item",
+  "title": "Advance slide item",
+  "category": "gutenify",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "",
+        "backgroundGradient": "",
+        "padding": {
+          "desktop": {}
+        }
+      }
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "gutenify-advance-slide-item-editor"
+}
