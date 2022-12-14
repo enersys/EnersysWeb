@@ -1,0 +1,3591 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Pollen\n"
+"POT-Creation-Date: 2019-08-22 17:15-0300\n"
+"PO-Revision-Date: 2019-08-22 17:14-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pollen.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/elements/elements/circular-progress-bar.php:90
+#: includes/options/config.php:334
+msgid "Circular Progress Bar"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/elements/elements/circular-progress-bar.php:94
+#: includes/elements/elements/counter.php:92
+#: includes/elements/elements/icon-group.php:63
+#: includes/elements/elements/icon.php:128
+#: includes/elements/elements/infobox.php:217
+#: includes/elements/elements/list-group.php:123
+#: includes/elements/elements/modal.php:245
+#: includes/elements/elements/progress-bar.php:98
+#: includes/elements/elements/semi-circular-progress-bar.php:94
+#: includes/elements/elements/svg.php:60
+#: includes/elements/elements/testimonial.php:131
+#: includes/elements/elements/testimonial.php:168
+msgid "Pollen"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:95
+#: includes/elements/elements/progress-bar.php:99
+#: includes/elements/elements/semi-circular-progress-bar.php:95
+msgid "Animated progress bar"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:100
+#: includes/elements/elements/counter.php:98
+#: includes/elements/elements/infobox.php:223
+#: includes/elements/elements/list-group.php:210
+#: includes/elements/elements/modal.php:263
+#: includes/elements/elements/progress-bar.php:104
+#: includes/elements/elements/semi-circular-progress-bar.php:100
+#: includes/options/core/inc/fields/slides/field_slides.php:145
+#: includes/options/core/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:102
+#: includes/elements/elements/semi-circular-progress-bar.php:102
+msgid "Enter the Progress Bar title here."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:107
+#: includes/elements/elements/infobox.php:407
+#: includes/elements/elements/semi-circular-progress-bar.php:107
+#: includes/options/core/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:110
+#: includes/elements/elements/semi-circular-progress-bar.php:110
+msgid "Percentage"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:111
+#: includes/elements/elements/circular-progress-bar.php:125
+#: includes/elements/elements/counter.php:137
+#: includes/elements/elements/icon.php:124
+#: includes/elements/elements/icon.php:133
+#: includes/elements/elements/infobox.php:287
+#: includes/elements/elements/list-group.php:223
+#: includes/elements/elements/modal.php:495
+#: includes/elements/elements/progress-bar.php:214
+#: includes/elements/elements/semi-circular-progress-bar.php:111
+#: includes/elements/elements/semi-circular-progress-bar.php:125
+#: includes/options/config.php:348
+msgid "Icon"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:113
+#: includes/elements/elements/semi-circular-progress-bar.php:113
+msgid "Choose a style."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:118
+#: includes/elements/elements/progress-bar.php:111
+#: includes/elements/elements/semi-circular-progress-bar.php:118
+msgid "Progress in %"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:120
+#: includes/elements/elements/progress-bar.php:113
+#: includes/elements/elements/semi-circular-progress-bar.php:120
+msgid "Enter a number between 0 and 100"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:127
+#: includes/elements/elements/counter.php:139
+#: includes/elements/elements/icon.php:135
+#: includes/elements/elements/infobox.php:289
+#: includes/elements/elements/list-group.php:225
+#: includes/elements/elements/modal.php:497
+#: includes/elements/elements/progress-bar.php:216
+#: includes/elements/elements/semi-circular-progress-bar.php:127
+msgid "Select icon from library."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:136
+#: includes/elements/elements/semi-circular-progress-bar.php:136
+msgid "Bar Thickness"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:138
+#: includes/elements/elements/circular-progress-bar.php:145
+#: includes/elements/elements/progress-bar.php:120
+#: includes/elements/elements/semi-circular-progress-bar.php:138
+#: includes/elements/elements/semi-circular-progress-bar.php:145
+msgid "Enter a value for height. Ex: 16px."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:143
+#: includes/elements/elements/semi-circular-progress-bar.php:143
+msgid "Track Thickness"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:150
+#: includes/elements/elements/progress-bar.php:125
+#: includes/elements/elements/semi-circular-progress-bar.php:150
+msgid "Corner Style"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:151
+#: includes/elements/elements/progress-bar.php:126
+#: includes/elements/elements/semi-circular-progress-bar.php:151
+msgid "Select style."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:154
+#: includes/elements/elements/icon.php:165
+#: includes/elements/elements/infobox.php:336
+#: includes/elements/elements/modal.php:348
+#: includes/elements/elements/modal.php:544
+#: includes/elements/elements/progress-bar.php:130
+#: includes/elements/elements/semi-circular-progress-bar.php:154
+msgid "Square"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:155
+#: includes/elements/elements/icon.php:166
+#: includes/elements/elements/infobox.php:337
+#: includes/elements/elements/modal.php:349
+#: includes/elements/elements/modal.php:545
+#: includes/elements/elements/progress-bar.php:131
+#: includes/elements/elements/semi-circular-progress-bar.php:155
+msgid "Round"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:161
+#: includes/elements/elements/list-group.php:230
+#: includes/elements/elements/progress-bar.php:137
+#: includes/elements/elements/semi-circular-progress-bar.php:161
+#: includes/options/config.php:209
+msgid "Colors"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:164
+#: includes/elements/elements/icon.php:142
+#: includes/elements/elements/infobox.php:302
+#: includes/elements/elements/modal.php:383
+#: includes/elements/elements/modal.php:510
+#: includes/elements/elements/progress-bar.php:140
+#: includes/elements/elements/semi-circular-progress-bar.php:164
+msgid "Preset Color"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:165
+#: includes/elements/elements/icon.php:143
+#: includes/elements/elements/infobox.php:303
+#: includes/elements/elements/modal.php:384
+#: includes/elements/elements/modal.php:511
+#: includes/elements/elements/progress-bar.php:141
+#: includes/elements/elements/semi-circular-progress-bar.php:165
+msgid "Custom Color"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:167
+#: includes/elements/elements/progress-bar.php:143
+#: includes/elements/elements/semi-circular-progress-bar.php:167
+msgid "Choose a color for your progress bar here."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:172
+#: includes/elements/elements/counter.php:182
+#: includes/elements/elements/infobox.php:622
+#: includes/elements/elements/list-group.php:252
+#: includes/elements/elements/modal.php:296
+#: includes/elements/elements/modal.php:396
+#: includes/elements/elements/progress-bar.php:148
+#: includes/elements/elements/semi-circular-progress-bar.php:172
+msgid "Title Color"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:174
+#: includes/elements/elements/counter.php:184
+#: includes/elements/elements/infobox.php:624
+#: includes/elements/elements/progress-bar.php:150
+#: includes/elements/elements/semi-circular-progress-bar.php:174
+msgid "Select custom color for the title."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:183
+#: includes/elements/elements/semi-circular-progress-bar.php:183
+msgid "Percentage and Icon Color"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:185
+#: includes/elements/elements/semi-circular-progress-bar.php:185
+msgid "Select custom color for the percentage or icon."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:194
+#: includes/elements/elements/progress-bar.php:181
+#: includes/elements/elements/semi-circular-progress-bar.php:194
+msgid "Bar Color"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:196
+#: includes/elements/elements/progress-bar.php:183
+#: includes/elements/elements/semi-circular-progress-bar.php:196
+msgid "Select custom color for the bar."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:205
+#: includes/elements/elements/progress-bar.php:192
+#: includes/elements/elements/semi-circular-progress-bar.php:205
+msgid "Track Color"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:207
+#: includes/elements/elements/progress-bar.php:194
+#: includes/elements/elements/semi-circular-progress-bar.php:207
+msgid "Select custom color for the track."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:219
+#: includes/elements/elements/counter.php:253
+#: includes/elements/elements/icon-group.php:98
+#: includes/elements/elements/icon.php:224
+#: includes/elements/elements/infobox.php:633
+#: includes/elements/elements/list-group.php:178
+#: includes/elements/elements/list-group.php:265
+#: includes/elements/elements/modal.php:746
+#: includes/elements/elements/progress-bar.php:228
+#: includes/elements/elements/semi-circular-progress-bar.php:219
+#: includes/elements/elements/svg.php:98
+#: includes/elements/elements/testimonial.php:139
+#: includes/elements/elements/testimonial.php:223
+msgid "Element ID"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:221
+#: includes/elements/elements/counter.php:255
+#: includes/elements/elements/icon-group.php:100
+#: includes/elements/elements/icon.php:226
+#: includes/elements/elements/infobox.php:635
+#: includes/elements/elements/list-group.php:180
+#: includes/elements/elements/list-group.php:267
+#: includes/elements/elements/modal.php:748
+#: includes/elements/elements/progress-bar.php:230
+#: includes/elements/elements/semi-circular-progress-bar.php:221
+#: includes/elements/elements/svg.php:100
+#: includes/elements/elements/testimonial.php:141
+#: includes/elements/elements/testimonial.php:225
+#, php-format
+msgid ""
+"Enter element ID (Note: make sure it is unique and valid according to %sw3c "
+"specification%s)."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:226
+#: includes/elements/elements/counter.php:260
+#: includes/elements/elements/icon-group.php:105
+#: includes/elements/elements/icon.php:231
+#: includes/elements/elements/infobox.php:640
+#: includes/elements/elements/list-group.php:185
+#: includes/elements/elements/list-group.php:272
+#: includes/elements/elements/modal.php:753
+#: includes/elements/elements/progress-bar.php:235
+#: includes/elements/elements/semi-circular-progress-bar.php:226
+#: includes/elements/elements/svg.php:105
+#: includes/elements/elements/testimonial.php:146
+#: includes/elements/elements/testimonial.php:230
+msgid "Extra class name"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:228
+#: includes/elements/elements/counter.php:262
+#: includes/elements/elements/icon-group.php:107
+#: includes/elements/elements/icon.php:233
+#: includes/elements/elements/infobox.php:642
+#: includes/elements/elements/list-group.php:187
+#: includes/elements/elements/list-group.php:274
+#: includes/elements/elements/modal.php:755
+#: includes/elements/elements/progress-bar.php:237
+#: includes/elements/elements/semi-circular-progress-bar.php:228
+#: includes/elements/elements/svg.php:107
+#: includes/elements/elements/testimonial.php:148
+#: includes/elements/elements/testimonial.php:232
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:233
+#: includes/elements/elements/counter.php:267
+#: includes/elements/elements/icon-group.php:112
+#: includes/elements/elements/icon.php:238
+#: includes/elements/elements/infobox.php:647
+#: includes/elements/elements/list-group.php:192
+#: includes/elements/elements/list-group.php:279
+#: includes/elements/elements/modal.php:760
+#: includes/elements/elements/progress-bar.php:242
+#: includes/elements/elements/semi-circular-progress-bar.php:233
+#: includes/elements/elements/svg.php:112
+#: includes/elements/elements/testimonial.php:153
+#: includes/elements/elements/testimonial.php:237
+msgid "CSS box"
+msgstr ""
+
+#: includes/elements/elements/circular-progress-bar.php:235
+#: includes/elements/elements/counter.php:269
+#: includes/elements/elements/icon-group.php:114
+#: includes/elements/elements/icon.php:240
+#: includes/elements/elements/infobox.php:649
+#: includes/elements/elements/list-group.php:194
+#: includes/elements/elements/list-group.php:281
+#: includes/elements/elements/modal.php:762
+#: includes/elements/elements/progress-bar.php:244
+#: includes/elements/elements/semi-circular-progress-bar.php:235
+#: includes/elements/elements/svg.php:114
+#: includes/elements/elements/testimonial.php:155
+#: includes/elements/elements/testimonial.php:239
+msgid "Design Options"
+msgstr ""
+
+#: includes/elements/elements/counter.php:88 includes/options/config.php:341
+msgid "Counter"
+msgstr ""
+
+#: includes/elements/elements/counter.php:93
+msgid "Your milestones and achievements"
+msgstr ""
+
+#: includes/elements/elements/counter.php:100
+#: includes/elements/elements/infobox.php:225
+msgid "Enter the title here."
+msgstr ""
+
+#: includes/elements/elements/counter.php:105
+msgid "Counter Value"
+msgstr ""
+
+#: includes/elements/elements/counter.php:107
+#: includes/elements/elements/counter.php:114
+#: includes/elements/elements/counter.php:121
+msgid "Enter number for counter without any special character."
+msgstr ""
+
+#: includes/elements/elements/counter.php:112
+msgid "Counter Value Speed"
+msgstr ""
+
+#: includes/elements/elements/counter.php:119
+msgid "Counter Value Interval"
+msgstr ""
+
+#: includes/elements/elements/counter.php:126
+#: includes/elements/elements/progress-bar.php:203
+msgid "Icon library"
+msgstr ""
+
+#: includes/elements/elements/counter.php:129
+#: includes/elements/elements/progress-bar.php:206
+msgid "No"
+msgstr ""
+
+#: includes/elements/elements/counter.php:130
+#: includes/elements/elements/progress-bar.php:207
+msgid "Yes"
+msgstr ""
+
+#: includes/elements/elements/counter.php:132
+#: includes/elements/elements/infobox.php:257
+#: includes/elements/elements/modal.php:461
+msgid "Enable Icon Library."
+msgstr ""
+
+#: includes/elements/elements/counter.php:148
+#: includes/elements/elements/infobox.php:567
+#: includes/elements/elements/modal.php:274
+msgid "Title Tag"
+msgstr ""
+
+#: includes/elements/elements/counter.php:152
+#: includes/elements/elements/infobox.php:571
+msgid "H1"
+msgstr ""
+
+#: includes/elements/elements/counter.php:153
+#: includes/elements/elements/infobox.php:572
+msgid "H2"
+msgstr ""
+
+#: includes/elements/elements/counter.php:154
+#: includes/elements/elements/infobox.php:573
+msgid "H3"
+msgstr ""
+
+#: includes/elements/elements/counter.php:155
+#: includes/elements/elements/infobox.php:574
+msgid "H4"
+msgstr ""
+
+#: includes/elements/elements/counter.php:156
+#: includes/elements/elements/infobox.php:575
+msgid "H5"
+msgstr ""
+
+#: includes/elements/elements/counter.php:157
+#: includes/elements/elements/infobox.php:576
+msgid "H6"
+msgstr ""
+
+#: includes/elements/elements/counter.php:158
+#: includes/elements/elements/infobox.php:577
+#: includes/elements/elements/modal.php:284
+msgid "p"
+msgstr ""
+
+#: includes/elements/elements/counter.php:159
+#: includes/elements/elements/infobox.php:578
+#: includes/elements/elements/modal.php:285
+msgid "div"
+msgstr ""
+
+#: includes/elements/elements/counter.php:161
+#: includes/elements/elements/infobox.php:581
+msgid "Select title tag."
+msgstr ""
+
+#: includes/elements/elements/counter.php:166
+#: includes/elements/elements/infobox.php:586
+msgid "Title Font Size"
+msgstr ""
+
+#: includes/elements/elements/counter.php:168
+#: includes/elements/elements/counter.php:192
+#: includes/elements/elements/counter.php:216
+#: includes/elements/elements/infobox.php:588
+msgid "Enter font size."
+msgstr ""
+
+#: includes/elements/elements/counter.php:174
+#: includes/elements/elements/infobox.php:594
+msgid "Title Line Height"
+msgstr ""
+
+#: includes/elements/elements/counter.php:176
+#: includes/elements/elements/counter.php:200
+#: includes/elements/elements/counter.php:228
+#: includes/elements/elements/infobox.php:596
+msgid "Enter line height."
+msgstr ""
+
+#: includes/elements/elements/counter.php:190
+msgid "Counter Size"
+msgstr ""
+
+#: includes/elements/elements/counter.php:198
+msgid "Counter Line Height"
+msgstr ""
+
+#: includes/elements/elements/counter.php:206
+msgid "Counter Color"
+msgstr ""
+
+#: includes/elements/elements/counter.php:208
+msgid "Select custom color for the number."
+msgstr ""
+
+#: includes/elements/elements/counter.php:214
+msgid "Icon Size"
+msgstr ""
+
+#: includes/elements/elements/counter.php:226
+msgid "Icon Line Height"
+msgstr ""
+
+#: includes/elements/elements/counter.php:238
+#: includes/elements/elements/list-group.php:241
+#: includes/elements/elements/progress-bar.php:159
+msgid "Icon Color"
+msgstr ""
+
+#: includes/elements/elements/counter.php:240
+msgid "Select custom color for the icon."
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:56 includes/options/config.php:355
+msgid "Icon Group"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:64
+#: includes/elements/elements/modal.php:246
+msgid "Add and manage multiple icons"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:69
+#: includes/elements/elements/list-group.php:153
+msgid "Direction"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:72
+msgid "Row"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:73
+msgid "Row Reverse"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:74
+msgid "Column"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:75
+msgid "Column Reverse"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:77
+msgid "Select the direction icons list."
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:82
+msgid "Justify Content"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:85
+#: includes/elements/elements/icon.php:206
+#: includes/elements/elements/infobox.php:612
+#: includes/elements/elements/list-group.php:167
+#: includes/elements/elements/modal.php:310
+#: includes/elements/elements/svg.php:86
+#: includes/options/core/inc/fields/border/field_border.php:159
+#: includes/options/core/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:86
+#: includes/elements/elements/icon.php:207
+#: includes/elements/elements/infobox.php:613
+#: includes/elements/elements/list-group.php:168
+#: includes/elements/elements/modal.php:311
+#: includes/elements/elements/svg.php:87
+#: includes/options/core/inc/fields/border/field_border.php:145
+#: includes/options/core/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:87
+#: includes/elements/elements/icon.php:208
+#: includes/elements/elements/infobox.php:425
+#: includes/elements/elements/infobox.php:614
+#: includes/elements/elements/list-group.php:169
+#: includes/elements/elements/modal.php:312
+#: includes/elements/elements/svg.php:88
+msgid "Center"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:88
+msgid "Space Around"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:89
+msgid "Space Between"
+msgstr ""
+
+#: includes/elements/elements/icon-group.php:91
+msgid "Select icons alignment."
+msgstr ""
+
+#: includes/elements/elements/icon.php:129
+msgid "Choose an icon from libraries"
+msgstr ""
+
+#: includes/elements/elements/icon.php:139
+#: includes/elements/elements/infobox.php:299
+#: includes/elements/elements/modal.php:507
+msgid "Icon color"
+msgstr ""
+
+#: includes/elements/elements/icon.php:145
+#: includes/elements/elements/infobox.php:305
+#: includes/elements/elements/modal.php:386
+#: includes/elements/elements/modal.php:513
+msgid "Select icon color."
+msgstr ""
+
+#: includes/elements/elements/icon.php:149
+#: includes/elements/elements/infobox.php:314
+#: includes/elements/elements/modal.php:522
+msgid "Custom Icon Color"
+msgstr ""
+
+#: includes/elements/elements/icon.php:151
+#: includes/elements/elements/infobox.php:316
+#: includes/elements/elements/modal.php:524
+msgid "Select custom icon color."
+msgstr ""
+
+#: includes/elements/elements/icon.php:159
+#: includes/elements/elements/infobox.php:325
+#: includes/elements/elements/modal.php:343
+#: includes/elements/elements/modal.php:533
+msgid "Shape"
+msgstr ""
+
+#: includes/elements/elements/icon.php:160
+#: includes/elements/elements/infobox.php:326
+#: includes/elements/elements/modal.php:534
+msgid "Select icon shape."
+msgstr ""
+
+#: includes/elements/elements/icon.php:163
+#: includes/elements/elements/infobox.php:334
+#: includes/elements/elements/modal.php:322
+#: includes/elements/elements/modal.php:364
+#: includes/elements/elements/modal.php:542
+msgid "None"
+msgstr ""
+
+#: includes/elements/elements/icon.php:164
+#: includes/elements/elements/infobox.php:335
+#: includes/elements/elements/modal.php:347
+#: includes/elements/elements/modal.php:543
+#: includes/elements/elements/progress-bar.php:129
+msgid "Rounded"
+msgstr ""
+
+#: includes/elements/elements/icon.php:167
+#: includes/elements/elements/infobox.php:338
+#: includes/elements/elements/modal.php:546
+msgid "Outline Rounded"
+msgstr ""
+
+#: includes/elements/elements/icon.php:168
+#: includes/elements/elements/infobox.php:339
+#: includes/elements/elements/modal.php:547
+msgid "Outline Square"
+msgstr ""
+
+#: includes/elements/elements/icon.php:169
+#: includes/elements/elements/infobox.php:340
+#: includes/elements/elements/modal.php:548
+msgid "Outline Round"
+msgstr ""
+
+#: includes/elements/elements/icon.php:174
+#: includes/elements/elements/infobox.php:345
+#: includes/elements/elements/modal.php:553
+msgid "Color Shape"
+msgstr ""
+
+#: includes/elements/elements/icon.php:176
+#: includes/elements/elements/infobox.php:347
+#: includes/elements/elements/modal.php:555
+msgid "Select custom shape background color."
+msgstr ""
+
+#: includes/elements/elements/icon.php:184
+#: includes/elements/elements/infobox.php:356
+#: includes/elements/elements/modal.php:432
+#: includes/elements/elements/modal.php:564
+#: includes/options/core/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: includes/elements/elements/icon.php:186
+msgid "Icon size. Default value is 32px."
+msgstr ""
+
+#: includes/elements/elements/icon.php:191
+#: includes/elements/elements/infobox.php:367
+#: includes/elements/elements/modal.php:575
+msgid "Spacing"
+msgstr ""
+
+#: includes/elements/elements/icon.php:193
+msgid "Select icon spacing."
+msgstr ""
+
+#: includes/elements/elements/icon.php:197
+#: includes/elements/elements/infobox.php:400
+msgid "Gap"
+msgstr ""
+
+#: includes/elements/elements/icon.php:199
+msgid "Select icon gap."
+msgstr ""
+
+#: includes/elements/elements/icon.php:203
+#: includes/elements/elements/infobox.php:421
+#: includes/elements/elements/list-group.php:164
+#: includes/elements/elements/modal.php:307
+#: includes/elements/elements/svg.php:83
+msgid "Alignment"
+msgstr ""
+
+#: includes/elements/elements/icon.php:210
+#: includes/elements/elements/infobox.php:428
+#: includes/elements/elements/svg.php:90
+msgid "Select icon alignment."
+msgstr ""
+
+#: includes/elements/elements/icon.php:214
+#: includes/elements/elements/infobox.php:230
+#: includes/elements/elements/list-group.php:216
+msgid "URL (Link)"
+msgstr ""
+
+#: includes/elements/elements/icon.php:216
+msgid "Add link to icon."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:213 includes/options/config.php:362
+msgid "Infobox"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:218
+msgid "Create nice looking infoboxes"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:232
+msgid "Add link to infobox title."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:238
+#: includes/options/core/inc/fields/slides/field_slides.php:149
+#: includes/options/core/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:240
+msgid "Provide the description for this Infobox."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:241
+#: includes/elements/elements/testimonial.php:192
+msgid ""
+"<p>I am text block. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo.</p>"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:250
+#: includes/elements/elements/modal.php:454
+msgid "Icon to display"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:253
+#: includes/elements/elements/modal.php:457
+msgid "Icon Manager"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:254
+#: includes/elements/elements/modal.php:458
+msgid "Image Icon"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:255
+#: includes/elements/elements/modal.php:459
+msgid "SVG Icon"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:263
+#: includes/elements/elements/modal.php:471
+msgid "Upload Image Icon"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:265
+#: includes/elements/elements/modal.php:473
+msgid "Upload the custom image icon."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:275
+#: includes/elements/elements/modal.php:483
+msgid "Upload SVG Icon"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:277
+#: includes/elements/elements/modal.php:485
+msgid "Upload the custom svg icon."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:358
+#: includes/elements/elements/modal.php:566
+msgid "Icon size. Default value is 16px."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:369
+#: includes/elements/elements/modal.php:577
+msgid "Select icon spacing. e.g. 16px."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:378
+#: includes/elements/elements/modal.php:586
+#: includes/elements/elements/progress-bar.php:118
+#: includes/elements/elements/svg.php:71
+#: includes/options/core/inc/fields/dimensions/field_dimensions.php:172
+#: includes/options/core/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:380
+#: includes/elements/elements/modal.php:588
+#: includes/elements/elements/svg.php:73
+msgid "Insert the SVG height."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:389
+#: includes/elements/elements/modal.php:597
+#: includes/elements/elements/svg.php:77
+#: includes/options/core/inc/fields/dimensions/field_dimensions.php:156
+msgid "Width"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:391
+#: includes/elements/elements/modal.php:599
+#: includes/elements/elements/svg.php:79
+msgid "Insert the SVG width."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:402
+msgid "Select icon gap. e.g. 16px."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:410
+msgid "Icon at Top"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:411
+msgid "Icon at Bottom"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:412
+msgid "Icon at Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:413
+msgid "Icon at Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:415
+msgid ""
+"Select icon position. Icon box style will be changed according to the icon "
+"position."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:424
+msgid "Start"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:426
+msgid "End"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:434
+#: includes/elements/elements/modal.php:610
+msgid "Animations"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:437
+#: includes/elements/elements/modal.php:617
+msgid "No Animation"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:438
+#: includes/elements/elements/modal.php:618
+msgid "Bounce"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:439
+#: includes/elements/elements/modal.php:619
+msgid "Flash"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:440
+#: includes/elements/elements/modal.php:620
+msgid "Pulse"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:441
+#: includes/elements/elements/modal.php:621
+msgid "Rubber Band"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:442
+#: includes/elements/elements/modal.php:622
+msgid "Shake"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:443
+#: includes/elements/elements/modal.php:623
+msgid "Head Shake"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:444
+#: includes/elements/elements/modal.php:624
+msgid "Swing"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:445
+#: includes/elements/elements/modal.php:625
+msgid "Tada"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:446
+#: includes/elements/elements/modal.php:626
+msgid "Wobble"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:447
+#: includes/elements/elements/modal.php:627
+msgid "Jello"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:448
+#: includes/elements/elements/modal.php:628
+msgid "Bounce In"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:449
+#: includes/elements/elements/modal.php:629
+msgid "Bounce In Down"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:450
+#: includes/elements/elements/modal.php:630
+msgid "Bounce In Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:451
+#: includes/elements/elements/modal.php:631
+msgid "Bounce In Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:452
+#: includes/elements/elements/modal.php:632
+msgid "Bounce In Up"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:453
+#: includes/elements/elements/modal.php:633
+msgid "Bounce Out"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:454
+#: includes/elements/elements/modal.php:634
+msgid "Bounce Out Down"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:455
+#: includes/elements/elements/modal.php:635
+msgid "Bounce Out Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:456
+#: includes/elements/elements/modal.php:636
+msgid "Bounce Out Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:457
+#: includes/elements/elements/modal.php:637
+msgid "Bounce Out Up"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:458
+#: includes/elements/elements/modal.php:638
+msgid "Fade In"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:459
+#: includes/elements/elements/modal.php:639
+msgid "Fade In Down"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:460
+#: includes/elements/elements/modal.php:640
+msgid "Fade In Down Big"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:461
+#: includes/elements/elements/modal.php:641
+msgid "Fade In Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:462
+#: includes/elements/elements/modal.php:642
+msgid "Fade In Left Big"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:463
+#: includes/elements/elements/modal.php:643
+msgid "Fade In Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:464
+#: includes/elements/elements/modal.php:644
+msgid "Fade In Right Big"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:465
+#: includes/elements/elements/modal.php:645
+msgid "Fade In Up"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:466
+#: includes/elements/elements/modal.php:646
+msgid "Fade In Up Big"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:467
+#: includes/elements/elements/modal.php:647
+msgid "Fade Out"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:468
+#: includes/elements/elements/modal.php:648
+msgid "Fade Out Down"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:469
+#: includes/elements/elements/modal.php:649
+msgid "Fade Out Down Big"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:470
+#: includes/elements/elements/modal.php:650
+msgid "Fade Out Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:471
+#: includes/elements/elements/modal.php:651
+msgid "Fade Out Left Big"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:472
+#: includes/elements/elements/modal.php:652
+msgid "Fade Out Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:473
+#: includes/elements/elements/modal.php:653
+msgid "Fade Out Right Big"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:474
+#: includes/elements/elements/modal.php:654
+msgid "Fade Out Up"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:475
+#: includes/elements/elements/modal.php:655
+msgid "Fade Out Up Big"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:476
+#: includes/elements/elements/modal.php:656
+msgid "Flip In X"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:477
+#: includes/elements/elements/modal.php:657
+msgid "Flip In Y"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:478
+#: includes/elements/elements/modal.php:658
+msgid "Flip Out X"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:479
+#: includes/elements/elements/modal.php:659
+msgid "Flip Out Y"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:480
+#: includes/elements/elements/modal.php:660
+msgid "Light Speed In"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:481
+#: includes/elements/elements/modal.php:661
+msgid "Light Speed Out"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:482
+#: includes/elements/elements/modal.php:662
+msgid "Rotate In"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:483
+#: includes/elements/elements/modal.php:663
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:484
+#: includes/elements/elements/modal.php:664
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:485
+#: includes/elements/elements/modal.php:665
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:486
+#: includes/elements/elements/modal.php:666
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:487
+#: includes/elements/elements/modal.php:667
+msgid "Rotate Out"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:488
+#: includes/elements/elements/modal.php:668
+msgid "Rotate Out Down Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:489
+#: includes/elements/elements/modal.php:669
+msgid "Rotate Out Down Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:490
+#: includes/elements/elements/modal.php:670
+msgid "Rotate Out Up Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:491
+#: includes/elements/elements/modal.php:671
+msgid "Rotate Out Up Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:492
+#: includes/elements/elements/modal.php:672
+msgid "Hinge"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:493
+#: includes/elements/elements/modal.php:673
+msgid "Jack In The Box"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:494
+#: includes/elements/elements/modal.php:674
+msgid "Roll In"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:495
+#: includes/elements/elements/modal.php:675
+msgid "Roll Out"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:496
+#: includes/elements/elements/modal.php:676
+msgid "Zoom In"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:497
+#: includes/elements/elements/modal.php:677
+msgid "Zoom In Down"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:498
+#: includes/elements/elements/modal.php:678
+msgid "Zoom In Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:499
+#: includes/elements/elements/modal.php:679
+msgid "Zoom In Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:500
+#: includes/elements/elements/modal.php:680
+msgid "Zoom In Up"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:501
+#: includes/elements/elements/modal.php:681
+msgid "Zoom Out"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:502
+#: includes/elements/elements/modal.php:682
+msgid "Zoom Out Down"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:503
+#: includes/elements/elements/modal.php:683
+msgid "Zoom Out Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:504
+#: includes/elements/elements/modal.php:684
+msgid "Zoom Out Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:505
+#: includes/elements/elements/modal.php:685
+msgid "Zoom Out Up"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:506
+#: includes/elements/elements/modal.php:686
+msgid "Slide In Down"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:507
+#: includes/elements/elements/modal.php:687
+msgid "Slide In Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:508
+#: includes/elements/elements/modal.php:688
+msgid "Slide In Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:509
+#: includes/elements/elements/modal.php:689
+msgid "Slide In Up"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:510
+#: includes/elements/elements/modal.php:690
+msgid "Slide Out Down"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:511
+#: includes/elements/elements/modal.php:691
+msgid "Slide Out Left"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:512
+#: includes/elements/elements/modal.php:692
+msgid "Slide Out Right"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:513
+#: includes/elements/elements/modal.php:693
+msgid "Slide Out Up"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:514
+#: includes/elements/elements/modal.php:694
+msgid "Heart Beat"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:517
+#: includes/elements/elements/modal.php:697
+msgid "Select the type of animation you want on hover."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:523
+#: includes/elements/elements/modal.php:703
+msgid "Animation Delay"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:526
+#: includes/elements/elements/modal.php:706
+msgid "No Delay"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:527
+#: includes/elements/elements/modal.php:707
+msgid "Delay 1 second"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:528
+#: includes/elements/elements/modal.php:708
+msgid "Delay 2 seconds"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:529
+#: includes/elements/elements/modal.php:709
+msgid "Delay 3 seconds"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:530
+#: includes/elements/elements/modal.php:710
+msgid "Delay 4 seconds"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:531
+#: includes/elements/elements/modal.php:711
+msgid "Delay 5 seconds"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:538
+#: includes/elements/elements/modal.php:718
+msgid "Select delay for animation."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:544
+#: includes/elements/elements/modal.php:724
+msgid "Animation Speed"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:547
+#: includes/elements/elements/modal.php:727
+msgid "Slower - 3s"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:548
+#: includes/elements/elements/modal.php:728
+msgid "Slow - 2s"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:549
+#: includes/elements/elements/modal.php:729
+msgid "Fast - 800ms"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:550
+#: includes/elements/elements/modal.php:730
+msgid "Faster - 500ms"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:557
+#: includes/elements/elements/modal.php:737
+msgid "Select Speed for animation."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:602
+msgid "Title Spacing"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:604
+msgid "Select title spacing. e.g. 16px."
+msgstr ""
+
+#: includes/elements/elements/infobox.php:609
+msgid "Title Alignment"
+msgstr ""
+
+#: includes/elements/elements/infobox.php:616
+msgid "Select title alignment."
+msgstr ""
+
+#: includes/elements/elements/list-group.php:116
+#: includes/options/config.php:369
+msgid "List Group"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:124
+msgid "Show a flexible and powerful list"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:129
+msgid "List Mode"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:132
+#: includes/elements/elements/modal.php:256
+msgid "Text"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:133
+msgid "Link"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:135
+msgid "Choose a mode for list group."
+msgstr ""
+
+#: includes/elements/elements/list-group.php:140
+msgid "Appearance"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:143
+msgid "No Borders and Separator Lines"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:144
+msgid "Separator Lines"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:145
+msgid "Borders and Separator Lines"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:146
+msgid "Borders With Rounded Corners and Separator Lines"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:148
+msgid "Choose a appearance for list group."
+msgstr ""
+
+#: includes/elements/elements/list-group.php:156
+msgid "Vertical"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:157
+msgid "Horizontal"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:159
+msgid "Choose the direction for list group."
+msgstr ""
+
+#: includes/elements/elements/list-group.php:171
+msgid "Choose the alignment for list group."
+msgstr ""
+
+#: includes/elements/elements/list-group.php:201
+msgid "List Item"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:202
+msgid "Display List Group Item"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:218
+msgid "Add link to List Item."
+msgstr ""
+
+#: includes/elements/elements/list-group.php:233
+msgid "Preset Colors"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:234
+msgid "Custom Colors"
+msgstr ""
+
+#: includes/elements/elements/list-group.php:236
+msgid "Choose a color for icons and titles."
+msgstr ""
+
+#: includes/elements/elements/list-group.php:243
+msgid "Select custom color for icons."
+msgstr ""
+
+#: includes/elements/elements/list-group.php:254
+msgid "Select custom color for titles."
+msgstr ""
+
+#: includes/elements/elements/modal.php:239 includes/options/config.php:376
+msgid "Modal"
+msgstr ""
+
+#: includes/elements/elements/modal.php:251
+msgid "Start From"
+msgstr ""
+
+#: includes/elements/elements/modal.php:254
+msgid "Button"
+msgstr ""
+
+#: includes/elements/elements/modal.php:255
+msgid "Image"
+msgstr ""
+
+#: includes/elements/elements/modal.php:258
+msgid "Select start mode."
+msgstr ""
+
+#: includes/elements/elements/modal.php:265
+msgid "Enter Title."
+msgstr ""
+
+#: includes/elements/elements/modal.php:277
+msgid "span"
+msgstr ""
+
+#: includes/elements/elements/modal.php:278
+msgid "h1"
+msgstr ""
+
+#: includes/elements/elements/modal.php:279
+msgid "h2"
+msgstr ""
+
+#: includes/elements/elements/modal.php:280
+msgid "h3"
+msgstr ""
+
+#: includes/elements/elements/modal.php:281
+msgid "h4"
+msgstr ""
+
+#: includes/elements/elements/modal.php:282
+msgid "h5"
+msgstr ""
+
+#: includes/elements/elements/modal.php:283
+msgid "h6"
+msgstr ""
+
+#: includes/elements/elements/modal.php:287
+msgid "Select element tag."
+msgstr ""
+
+#: includes/elements/elements/modal.php:298
+msgid "Select custom title color."
+msgstr ""
+
+#: includes/elements/elements/modal.php:314
+msgid "Select alignment."
+msgstr ""
+
+#: includes/elements/elements/modal.php:319
+msgid "Initial Height"
+msgstr ""
+
+#: includes/elements/elements/modal.php:323
+msgid "5"
+msgstr ""
+
+#: includes/elements/elements/modal.php:324
+msgid "10"
+msgstr ""
+
+#: includes/elements/elements/modal.php:325
+msgid "15"
+msgstr ""
+
+#: includes/elements/elements/modal.php:326
+msgid "20"
+msgstr ""
+
+#: includes/elements/elements/modal.php:327
+msgid "25"
+msgstr ""
+
+#: includes/elements/elements/modal.php:328
+msgid "30"
+msgstr ""
+
+#: includes/elements/elements/modal.php:329
+msgid "35"
+msgstr ""
+
+#: includes/elements/elements/modal.php:330
+msgid "40"
+msgstr ""
+
+#: includes/elements/elements/modal.php:331
+msgid "45"
+msgstr ""
+
+#: includes/elements/elements/modal.php:332
+msgid "50"
+msgstr ""
+
+#: includes/elements/elements/modal.php:334
+msgid "Select the initial height for modal."
+msgstr ""
+
+#: includes/elements/elements/modal.php:344
+msgid "Select shape."
+msgstr ""
+
+#: includes/elements/elements/modal.php:360
+msgid "Outline Shape"
+msgstr ""
+
+#: includes/elements/elements/modal.php:361
+msgid "Select outilne shape."
+msgstr ""
+
+#: includes/elements/elements/modal.php:365
+msgid "Outline"
+msgstr ""
+
+#: includes/elements/elements/modal.php:366
+msgid "Outline 2x"
+msgstr ""
+
+#: includes/elements/elements/modal.php:367
+msgid "Outline 3x"
+msgstr ""
+
+#: includes/elements/elements/modal.php:368
+msgid "Outline 4x"
+msgstr ""
+
+#: includes/elements/elements/modal.php:369
+msgid "Outline 5x"
+msgstr ""
+
+#: includes/elements/elements/modal.php:380
+msgid "Button Color"
+msgstr ""
+
+#: includes/elements/elements/modal.php:398
+#: includes/elements/elements/modal.php:410
+#: includes/elements/elements/modal.php:422
+msgid "Select color."
+msgstr ""
+
+#: includes/elements/elements/modal.php:408 includes/options/config.php:269
+msgid "Background Color"
+msgstr ""
+
+#: includes/elements/elements/modal.php:420
+msgid "Outline Color"
+msgstr ""
+
+#: includes/elements/elements/modal.php:433
+msgid "Select button size."
+msgstr ""
+
+#: includes/elements/elements/modal.php:436
+msgid "Small"
+msgstr ""
+
+#: includes/elements/elements/modal.php:437
+msgid "Normal"
+msgstr ""
+
+#: includes/elements/elements/modal.php:438
+msgid "Large"
+msgstr ""
+
+#: includes/elements/elements/modal.php:439
+msgid "Block"
+msgstr ""
+
+#: includes/elements/elements/progress-bar.php:94
+#: includes/options/config.php:390
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/elements/elements/progress-bar.php:106
+msgid "Enter the Progress Bar Field title here."
+msgstr ""
+
+#: includes/elements/elements/progress-bar.php:161
+msgid "Select custom color for icon."
+msgstr ""
+
+#: includes/elements/elements/progress-bar.php:170
+msgid "Percentage Color"
+msgstr ""
+
+#: includes/elements/elements/progress-bar.php:172
+msgid "Select custom color for the percentage."
+msgstr ""
+
+#: includes/elements/elements/progress-bar.php:209
+msgid "Should an icon be displayed at the left side of the progress bar."
+msgstr ""
+
+#: includes/elements/elements/semi-circular-progress-bar.php:90
+#: includes/options/config.php:397
+msgid "Semi Circular Progress Bar"
+msgstr ""
+
+#: includes/elements/elements/svg.php:56 includes/elements/elements/svg.php:65
+#: includes/options/config.php:404
+msgid "SVG"
+msgstr ""
+
+#: includes/elements/elements/svg.php:61
+msgid "Animated or static SVG for your content"
+msgstr ""
+
+#: includes/elements/elements/svg.php:67
+msgid "Select a SVG Icon from media library."
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:124
+#: includes/options/config.php:383
+msgid "Testimonial"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:132
+msgid "Display testimonials"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:162
+msgid "Testimonial Section"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:163
+msgid "Testimonial content panels item."
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:172
+#: includes/options/core/inc/welcome/views/status_report.php:710
+msgid "Name"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:177
+msgid "Occupation"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:182
+msgid "Photo"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:185
+msgid "Select image from media library."
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:190
+msgid "Content"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:197
+msgid "Testimonial Color"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:199
+msgid "Select testimonial content color."
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:205
+msgid "Testimonial Name Color"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:207
+msgid "Select testimonial name color."
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:213
+msgid "Testimonial Occupation Color"
+msgstr ""
+
+#: includes/elements/elements/testimonial.php:215
+msgid "Select testimonial occupation color."
+msgstr ""
+
+#: includes/options/config.php:75 includes/options/config.php:76 pollen.php:61
+msgid "Settings"
+msgstr ""
+
+#: includes/options/config.php:211
+msgid "Control and configure the design options."
+msgstr ""
+
+#: includes/options/config.php:241
+msgid "Color Mode"
+msgstr ""
+
+#: includes/options/config.php:242
+msgid "Select a color mode."
+msgstr ""
+
+#: includes/options/config.php:252
+msgid "Global Color"
+msgstr ""
+
+#: includes/options/config.php:260
+msgid "Pick a global color for the elements."
+msgstr ""
+
+#: includes/options/config.php:273
+msgid "Pick a background color for the elements."
+msgstr ""
+
+#: includes/options/config.php:282
+msgid "Border Color"
+msgstr ""
+
+#: includes/options/config.php:286
+msgid "Pick a border color for the elements."
+msgstr ""
+
+#: includes/options/config.php:295
+msgid "Color"
+msgstr ""
+
+#: includes/options/config.php:299
+msgid "Pick a color for the elements."
+msgstr ""
+
+#: includes/options/config.php:308
+msgid "Link Color"
+msgstr ""
+
+#: includes/options/config.php:309
+msgid "Enter the color for link states."
+msgstr ""
+
+#: includes/options/config.php:326
+msgid "Elements"
+msgstr ""
+
+#: includes/options/config.php:328
+msgid "Control and configure the elements."
+msgstr ""
+
+#: includes/options/config.php:335 includes/options/config.php:342
+#: includes/options/config.php:349 includes/options/config.php:356
+#: includes/options/config.php:363 includes/options/config.php:370
+#: includes/options/config.php:377 includes/options/config.php:384
+#: includes/options/config.php:391 includes/options/config.php:398
+#: includes/options/config.php:405
+msgid "Enable or disable element."
+msgstr ""
+
+#: includes/options/config.php:412
+msgid "Custom Code"
+msgstr ""
+
+#: includes/options/config.php:414
+msgid "Enter your custom codes."
+msgstr ""
+
+#: includes/options/config.php:420
+msgid "CSS Code"
+msgstr ""
+
+#: includes/options/config.php:421
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: includes/options/config.php:428
+msgid "JS Code"
+msgstr ""
+
+#: includes/options/config.php:429
+msgid "Paste your JS code here."
+msgstr ""
+
+#: includes/options/core/core/enqueue.php:452
+#: includes/options/core/inc/extensions/customizer/extension_customizer.php:689
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: includes/options/core/core/enqueue.php:460
+#: includes/options/core/inc/extensions/customizer/extension_customizer.php:690
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: includes/options/core/core/enqueue.php:468
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: includes/options/core/core/enqueue.php:476
+#: includes/options/core/inc/extensions/customizer/extension_customizer.php:691
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/options/core/core/enqueue.php:484
+msgid ""
+"Your current options will be replaced with the values of this import. Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/options/core/core/enqueue.php:493
+msgid "Please Wait"
+msgstr ""
+
+#: includes/options/core/core/enqueue.php:504
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: includes/options/core/core/enqueue.php:505
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: includes/options/core/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: includes/options/core/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: includes/options/core/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: includes/options/core/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: includes/options/core/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/options/core/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: includes/options/core/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: includes/options/core/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: includes/options/core/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: includes/options/core/framework.php:221
+#: includes/options/core/framework.php:225
+msgid "Options"
+msgstr ""
+
+#: includes/options/core/framework.php:1825
+msgid "Default"
+msgstr ""
+
+#: includes/options/core/framework.php:2705
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: includes/options/core/framework.php:2714
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: includes/options/core/framework.php:2794
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: includes/options/core/framework.php:3914
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: includes/options/core/framework.php:3930
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: includes/options/core/inc/class.redux_admin_notices.php:111
+msgid "Dismiss"
+msgstr ""
+
+#: includes/options/core/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: includes/options/core/inc/class.redux_cdn.php:76
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the <a href=\"%s"
+"\" target=\"_blank\">Redux Vendor Support</a> plugin/extension to bypass the "
+"our CDN and avoid this warning"
+msgstr ""
+
+#: includes/options/core/inc/class.redux_cdn.php:79
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: includes/options/core/inc/class.redux_cdn.php:79
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: includes/options/core/inc/class.redux_cdn.php:115
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: includes/options/core/inc/class.redux_filesystem.php:50
+#: includes/options/core/inc/class.redux_filesystem.php:289
+msgid "File Permission Issues"
+msgstr ""
+
+#: includes/options/core/inc/class.redux_filesystem.php:50
+#: includes/options/core/inc/class.redux_filesystem.php:289
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> "
+"has the proper read-write permissions, or modify your wp-config.php file to "
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: includes/options/core/inc/class.redux_helpers.php:622
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: includes/options/core/inc/extensions/customizer/extension_customizer.php:724
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: includes/options/core/inc/extensions/customizer/extension_customizer.php:725
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: includes/options/core/inc/extensions/customizer/extension_customizer.php:726
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/options/core/inc/extensions/customizer/inc/customizer_panel.php:89
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#. translators: %s is the site/panel title in the Customizer
+#: includes/options/core/inc/extensions/customizer/inc/customizer_panel.php:114
+#: includes/options/core/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: includes/options/core/inc/extensions/customizer/inc/customizer_panel.php:138
+#: includes/options/core/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: includes/options/core/inc/extensions/customizer/inc/customizer_panel.php:146
+msgid "Help"
+msgstr ""
+
+#: includes/options/core/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: includes/options/core/inc/extensions/customizer/inc/customizer_section.php:122
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:91
+msgid "Import Options"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:95
+msgid "Import from File"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:98
+msgid "Import from URL"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid "Import"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:120
+msgid "Export Options"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:132
+msgid "Copy Data"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:133
+msgid "Download Data File"
+msgstr ""
+
+#: includes/options/core/inc/extensions/import_export/import_export/field_import_export.php:134
+msgid "Copy Export URL"
+msgstr ""
+
+#: includes/options/core/inc/extensions/options_object/extension_options_object.php:82
+#: includes/options/core/inc/extensions/options_object/options_object/field_options_object.php:104
+msgid "Options Object"
+msgstr ""
+
+#: includes/options/core/inc/extensions/options_object/options_object/field_options_object.php:107
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:124
+#: includes/options/core/inc/fields/color/field_color.php:73
+#: includes/options/core/inc/fields/color_gradient/field_color_gradient.php:79
+#: includes/options/core/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:277
+#: includes/options/core/inc/fields/media/field_media.php:153
+msgid "No media selected"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:314
+#: includes/options/core/inc/fields/media/field_media.php:206
+#: includes/options/core/inc/fields/slides/field_slides.php:126
+#: includes/options/core/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: includes/options/core/inc/fields/background/field_background.php:321
+#: includes/options/core/inc/fields/media/field_media.php:213
+#: includes/options/core/inc/fields/multi_text/field_multi_text.php:72
+#: includes/options/core/inc/fields/multi_text/field_multi_text.php:79
+#: includes/options/core/inc/fields/multi_text/field_multi_text.php:89
+#: includes/options/core/inc/fields/slides/field_slides.php:133
+#: includes/options/core/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: includes/options/core/inc/fields/border/field_border.php:125
+#: includes/options/core/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: includes/options/core/inc/fields/border/field_border.php:138
+#: includes/options/core/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: includes/options/core/inc/fields/border/field_border.php:152
+#: includes/options/core/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: includes/options/core/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: includes/options/core/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: includes/options/core/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: includes/options/core/inc/fields/color_rgba/field_color_rgba.php:71
+msgid "Choose"
+msgstr ""
+
+#: includes/options/core/inc/fields/color_rgba/field_color_rgba.php:72
+msgid "Cancel"
+msgstr ""
+
+#: includes/options/core/inc/fields/color_rgba/field_color_rgba.php:74
+msgid "Select Color"
+msgstr ""
+
+#: includes/options/core/inc/fields/dimensions/field_dimensions.php:183
+#: includes/options/core/inc/fields/dimensions/field_dimensions.php:184
+#: includes/options/core/inc/fields/spacing/field_spacing.php:245
+#: includes/options/core/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: includes/options/core/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: includes/options/core/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: includes/options/core/inc/fields/link_color/field_link_color.php:90
+msgid "Regular"
+msgstr ""
+
+#: includes/options/core/inc/fields/link_color/field_link_color.php:94
+msgid "Hover"
+msgstr ""
+
+#: includes/options/core/inc/fields/link_color/field_link_color.php:98
+msgid "Visited"
+msgstr ""
+
+#: includes/options/core/inc/fields/link_color/field_link_color.php:102
+msgid "Active"
+msgstr ""
+
+#: includes/options/core/inc/fields/link_color/field_link_color.php:106
+msgid "Focus"
+msgstr ""
+
+#: includes/options/core/inc/fields/multi_text/field_multi_text.php:62
+msgid "Add More"
+msgstr ""
+
+#: includes/options/core/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: includes/options/core/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: includes/options/core/inc/fields/select/field_select.php:83
+#: includes/options/core/inc/fields/select_image/field_select_image.php:54
+msgid "Select an item"
+msgstr ""
+
+#: includes/options/core/inc/fields/select/field_select.php:134
+#: includes/options/core/inc/fields/select_image/field_select_image.php:134
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/options/core/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: includes/options/core/inc/fields/slides/field_slides.php:73
+#: includes/options/core/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/options/core/inc/fields/slides/field_slides.php:153
+#: includes/options/core/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: includes/options/core/inc/fields/slides/field_slides.php:167
+#: includes/options/core/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: includes/options/core/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/options/core/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: includes/options/core/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:258
+#: includes/options/core/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:273
+#: includes/options/core/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:342
+#: includes/options/core/inc/fields/typography/field_typography.php:343
+#: includes/options/core/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:365
+#: includes/options/core/inc/fields/typography/field_typography.php:366
+#: includes/options/core/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:388
+#: includes/options/core/inc/fields/typography/field_typography.php:389
+#: includes/options/core/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:408
+#: includes/options/core/inc/fields/typography/field_typography.php:409
+#: includes/options/core/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:432
+#: includes/options/core/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:441
+#: includes/options/core/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:450
+#: includes/options/core/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:459
+#: includes/options/core/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:913
+msgid "Standard Fonts"
+msgstr ""
+
+#: includes/options/core/inc/fields/typography/field_typography.php:1014
+msgid "Google Webfonts"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
+"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
+"document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/embedded.php:24
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
+"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
+"submission because of Redux."
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: includes/options/core/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:129
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:130
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatibility."
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:135
+msgid "Allow tracking"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:140
+msgid "Do not allow tracking"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:151
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:152
+msgid "Getting Started"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:152
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:152
+msgid "our documentation"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:153
+msgid "Redux Generator"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:153
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:154
+#: includes/options/core/inc/welcome/welcome.php:227
+msgid "Redux Extensions"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:154
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:154
+msgid "extensions directory"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:155
+msgid "Like Redux?"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:155
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:155
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:155
+msgid "donation"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:156
+msgid "Newsletter"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:156
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:159
+msgid "Email Address"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:163
+msgid "Subscribe"
+msgstr ""
+
+#: includes/options/core/inc/tracking.php:175
+msgid "Close"
+msgstr ""
+
+#: includes/options/core/inc/validation/color/validation_color.php:15
+#: includes/options/core/inc/validation/color_rgba/validation_color_rgba.php:14
+#: includes/options/core/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: includes/options/core/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: includes/options/core/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: includes/options/core/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: includes/options/core/inc/validation/email/validation_email.php:16
+#: includes/options/core/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: includes/options/core/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: includes/options/core/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: includes/options/core/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: includes/options/core/inc/validation/numeric/validation_numeric.php:16
+#: includes/options/core/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: includes/options/core/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: includes/options/core/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/about.php:2
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/about.php:5
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is a huge "
+"step forward in Redux Development. Look at all that's new."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/about.php:8
+#: includes/options/core/inc/welcome/views/changelog.php:10
+#: includes/options/core/inc/welcome/views/credits.php:10
+#: includes/options/core/inc/welcome/views/extensions.php:81
+#: includes/options/core/inc/welcome/views/status_report.php:34
+#: includes/options/core/inc/welcome/views/support.php:8 pollen.php:57
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/about.php:15
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/about.php:17
+msgid ""
+"Redux Framework is the core of many products on the web. It is an option "
+"framework which developers use to\n"
+"            enhance their products."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/about.php:22
+msgid "Learn More"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/about.php:28
+msgid "New in this Release"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/changelog.php:2
+msgid "Redux Framework - Changelog"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/changelog.php:5
+#: includes/options/core/inc/welcome/views/status_report.php:30
+msgid ""
+"Our core mantra at Redux is backwards compatibility. With hundreds of "
+"thousands of instances worldwide, you can be assured that we will take care "
+"of you and your clients."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/credits.php:2
+msgid "Redux Framework - A Community Effort"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/credits.php:5
+msgid ""
+"We recognize we are nothing without our community. We would like to thank "
+"all of those who help Redux to be what it is. Thank you for your involvement."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/credits.php:18
+#, php-format
+msgid ""
+"Redux is created by a community of developers world wide. Want to have your "
+"name listed too? <a href=\"%d\" target=\"_blank\">Contribute to Redux</a>."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/extensions.php:73
+msgid "Redux Framework - Extensions"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/extensions.php:76
+msgid ""
+"Supercharge your Redux experience. Our extensions provide you with features "
+"that will take your products to the next level."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/extensions.php:89
+msgid ""
+"While some are built specificially for developers, extensions such as Custom "
+"Fonts are sure to make any user happy."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:26
+msgid "Redux Framework - System Status"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:43
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:48
+msgid "Get System Report"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:53
+msgid "Understanding the Status Report"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:62
+msgid "Copied!"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:63
+msgid "Copy for Support"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:73
+msgid "WordPress Environment"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:80
+msgid "Home URL"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:83
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:89
+msgid "Site URL"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:92
+msgid "The root URL of your site."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:100
+msgid "Redux Version"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:103
+msgid "The version of Redux Framework installed on your site."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:111
+msgid "Redux Data Directory Writable"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:114
+msgid ""
+"Redux and its extensions write data to the <code>uploads</code> directory. "
+"This directory must be writable."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:120
+#, php-format
+msgid "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:126
+msgid "WP Content URL"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:129
+msgid "The location of Wordpress's content URL."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:137
+msgid "WP Version"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:140
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:148
+msgid "WP Multisite"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:151
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:162
+msgid "Permalink Structure"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:165
+msgid ""
+"The current permalink structure as defined in Wordpress Settings->Permalinks."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:174
+msgid "Front Page Display"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:176
+msgid "The current Reading mode of Wordpress."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:185
+msgid "Front Page"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:188
+msgid "The currently selected page which acts as the site's Front Page."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:196
+msgid "Posts Page"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:199
+msgid "The currently selected page in where blog posts are displayed."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:210
+msgid "WP Memory Limit"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:213
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:220
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:229
+msgid "Database Table Prefix"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:232
+msgid "The prefix structure of the current Wordpress database."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:240
+msgid "WP Debug Mode"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:243
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:255
+msgid "Language"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:258
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:270
+msgid "Browser"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:277
+msgid "Browser Info"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:280
+msgid "Information about web browser current in use."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:297
+msgid "Server Environment"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:304
+msgid "Server Info"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:307
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:315
+msgid "Localhost Environment"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:318
+msgid "Is the server running in a localhost environment."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:332
+msgid "PHP Version"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:335
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:343
+msgid "ABSPATH"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:346
+msgid "The ABSPATH variable on the server."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:355
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:356
+#: includes/options/core/inc/welcome/views/status_report.php:361
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:360
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:365
+msgid "PHP Time Limit"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:366
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:370
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:371
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:375
+msgid "PHP Display Errors"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:376
+msgid "Determines if PHP will display errors within the browser."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:387
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:388
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.  "
+"If enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:399
+msgid "MySQL Version"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:400
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:404
+msgid "Max Upload Size"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:405
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:410
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:412
+msgid "The default timezone for your server."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:416
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:428
+msgid "Used when communicating with remote services with PHP."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:434
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to "
+"communicate with other servers. Please contact your hosting provider."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:473
+msgid "Remote Post"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:474
+msgid "Used to send data to remote servers."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:479
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact "
+"your hosting provider."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:482
+#: includes/options/core/inc/welcome/views/status_report.php:497
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:489
+msgid "Remote Get"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:490
+msgid "Used to grab information from remote servers for updates updates."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:495
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote "
+"servers. Contact your hosting provider."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:531
+msgid "Active Plugins"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:546
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:553
+#, php-format
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:572
+msgid "Redux Instance: "
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:579
+msgid "The opt_name argument for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:587
+msgid "The global_variable argument for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:595
+msgid "Indicates if developer mode is enabled for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:600
+msgid "Indicates if ajax based saving is enabled for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:605
+msgid ""
+"The page slug denotes the string used for the options panel page for this "
+"instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:610
+msgid ""
+"The page permissions variable sets the permission level required to access "
+"the options panel for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:615
+msgid ""
+"This variable set whether or not the menu is displayed as an admin menu item "
+"for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:620
+msgid ""
+"The page parent variable sets where the options menu will be placed on the "
+"WordPress admin sidebar for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:626
+msgid "Indicates if the compiler flag is enabled for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:631
+msgid ""
+"Indicates if output flag for globally shutting off all CSS output is enabled "
+"for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:636
+msgid ""
+"The output_tag variable sets whether or not dynamic CSS will be generated "
+"for the customizer and Google fonts for this instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:645
+msgid ""
+"The specified template path containing custom template files for this "
+"instance of Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:650
+msgid "List of template files overriding the default Redux template files."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:676
+msgid "Indicates the installed Redux extensions and their version numbers."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:705
+msgid "Theme"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:711
+msgid "The name of the current active theme."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:715
+msgid "Version"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:716
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:722
+msgid "is available"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:728
+msgid "Author URL"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:729
+msgid "The theme developers URL."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:733
+msgid "Child Theme"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:734
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:737
+#, php-format
+msgid ""
+"If you're modifying Redux Framework or a parent theme you didn't build "
+"personally, we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:745
+msgid "Parent Theme Name"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:747
+msgid "The name of the parent theme."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:752
+msgid "Parent Theme Version"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:754
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:759
+msgid "Parent Theme Author URL"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/status_report.php:761
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:2
+msgid "Redux Framework - Support"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:4
+msgid ""
+"We are an open source project used by developers to make powerful control "
+"panels."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:19
+#: includes/options/core/inc/welcome/views/support.php:40
+msgid "Generate a Support URL"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:20
+msgid "Select Support Type"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:21
+#: includes/options/core/inc/welcome/views/support.php:87
+msgid "How to Get Support"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:27
+msgid "Submit a Support Request"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:31
+msgid "To get started, we will need to generate a support hash."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:35
+#, php-format
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Status tab</a>."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:52
+msgid "Select Your Support Type"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:56
+msgid "What type of user are you?"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:63
+msgid "User"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:65
+msgid "I am a user, using a pre-built product."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:70
+msgid "Developer"
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:72
+msgid "I am a developer, building a product using Redux."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:92
+msgid ""
+"Please proceed to the Redux Framework issue tracker and supply us with your "
+"support URL below. Please also provide any information that will help us to "
+"reproduce your issue."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:101
+msgid ""
+"Listed below are the Wordpress plugins and/or theme installed on your site "
+"that utilize Redux Framework. We do not directly support products created "
+"with our framework.  It is the responsibility of the plugin or theme "
+"developer to support their work. You will need to contact the author(s) of "
+"the products listed below with your support questions."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:105
+msgid ""
+"Please be sure to include for your developer - via cut and paste - the "
+"Support URL in the box below."
+msgstr ""
+
+#: includes/options/core/inc/welcome/views/support.php:134
+#, php-format
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:104
+msgid ""
+"If you like <strong>Redux</strong> please leave us a <a href=\"https://"
+"wordpress.org/support/view/plugin-reviews/redux-framework?filter=5#postform"
+"\" target=\"_blank\" class=\"redux-rating-link\" data-rated="
+"\"Thanks :)\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. A huge thank "
+"you from Redux in advance!"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:181
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:203
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:203
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:211
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:219
+msgid "Get Support"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:236
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:244
+msgid "Redux Framework Status"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:344
+msgid "What's New"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:347
+msgid "Extensions"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:350
+msgid "Changelog"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:353
+msgid "Credits"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:356
+msgid "Support"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:359
+msgid "Status"
+msgstr ""
+
+#: includes/options/core/inc/welcome/welcome.php:519
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/options/core/templates/panel/footer.tpl.php:57
+#: includes/options/core/templates/panel/header_stickybar.tpl.php:22
+msgid "Save Changes"
+msgstr ""
+
+#: includes/options/core/templates/panel/footer.tpl.php:62
+#: includes/options/core/templates/panel/header_stickybar.tpl.php:27
+msgid "Reset Section"
+msgstr ""
+
+#: includes/options/core/templates/panel/footer.tpl.php:64
+#: includes/options/core/templates/panel/header_stickybar.tpl.php:29
+msgid "Reset All"
+msgstr ""
+
+#: includes/options/core/templates/panel/footer.tpl.php:69
+#: includes/options/core/templates/panel/header_stickybar.tpl.php:33
+msgid "Working..."
+msgstr ""
+
+#: includes/options/core/templates/panel/header.tpl.php:11
+#: includes/options/core/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: includes/options/core/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: includes/options/core/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: includes/options/core/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: includes/options/core/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: includes/options/core/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: includes/options/core/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: includes/options/core/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:139
+#: includes/paramns/icon-manager/icon-manager.php:580
+#: includes/paramns/icon-manager/icon-manager.php:581
+msgid "Icon Pack Manager"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:141
+#: includes/paramns/icon-manager/icon-manager.php:236
+msgid "Upload/Select Fontello Font Zip"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:143
+#: includes/paramns/icon-manager/icon-manager.php:236
+msgid "Insert Fonts Zip File"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:145
+msgid "Add New Icon Pack"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:157
+msgid "Start typing to search"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:168
+msgid "No icon pack uploaded. Upload some icon pack to display here."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:200
+msgid "Remove Pack"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:236
+msgid "Can't find the icon?"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:236
+msgid "Upload New Font Pack"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:238
+msgid "Icons found."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:252
+msgid ""
+"Using this feature is reserved for Super Admins. You unfortunately don't "
+"have the necessary permissions."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:265
+msgid "Was not able to retrieve the Icon Pack name from your Uploaded Folder"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:267
+msgid "pollen_font_added:"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:278
+msgid "pollen_font_removed"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:280
+msgid "Was not able to remove Icon Pack"
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:293
+msgid "Could not create temporary folder."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:316
+msgid "Unable to unpack Icon Pack."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:326
+msgid "Icon Pack Zip file is corrupted."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:338
+msgid ""
+"SVG file or selection.json not found. Please check the integrity of the Icon "
+"Pack files."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:355
+msgid ""
+"There is already an Icon Pack with this name, add an icon with another name."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:360
+msgid ""
+"This Icon Pack does not belong to Icomoon. Use only Icomoon's Icon Pack."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:399
+#: includes/paramns/icon-manager/icon-manager.php:405
+msgid "Error generating configuration file."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:427
+msgid "Error generating CSS file. Use only Icomoon's Icon Pack."
+msgstr ""
+
+#: includes/paramns/icon-manager/icon-manager.php:453
+msgid "This Icon Pack could not be added."
+msgstr ""
+
+#: pollen.php:51
+#, php-format
+msgid "Welcome to Pollen %s"
+msgstr ""
+
+#: pollen.php:54
+msgid ""
+"Congratulations! Within minutes you can build complex layouts on the basis "
+"of our content elements and without touching a single line of code."
+msgstr ""
+
+#: pollen.php:149
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://bit.ly/vcomposer\" "
+"target=\"_blank\">Visual Composer</a></strong> plugin to be installed and "
+"activated on your site."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://visualmodo.com/pollen"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Get beautiful & free elements built exclusively for WPBakery Page Builder."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jared Dias"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://visualmodo.com"
+msgstr ""
