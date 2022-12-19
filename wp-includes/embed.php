@@ -70,7 +70,7 @@ function wp_embed_defaults( $url = '' ) {
 	}
 
 	if ( empty( $width ) ) {
-		$width = 500;
+		$width = 900;
 	}
 
 	$height = min( ceil( $width * 1.5 ), 1000 );
