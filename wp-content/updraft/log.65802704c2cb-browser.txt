@@ -1,0 +1,97 @@
+0000.041 (R) [notice] Looking for db archive: file name: backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-db.gz
+0000.044 (R) [notice] Archive is expected to be size: 675.4 KB: OK
+0000.064 (R) [notice] Looking for themes archive: file name: backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-themes.zip
+0000.066 (R) [notice] Archive is expected to be size: 12574.1 KB: OK
+0000.075 (R) [notice] Looking for uploads archive: file name: backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-uploads.zip
+0000.078 (R) [notice] Archive is expected to be size: 47803.1 KB: OK
+0000.086 (R) [notice] Looking for others archive: file name: backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-others.zip
+0000.087 (R) [notice] Archive is expected to be size: 1060.2 KB: OK
+0000.098 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.105 (R) [notice] Unpacking backup... (backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-db.gz, 0.7 Mb)
+0000.140 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.269 (R) [notice] Enabling Maintenance mode&#8230;
+0000.300 (R) [notice] Backup of: http://localhost:8000
+0000.302 (R) [notice] Content URL: http://localhost:8000/wp-content
+0000.303 (R) [notice] Uploads URL: http://localhost:8000/wp-content/uploads
+0000.303 (R) [notice] Old table prefix: wp_
+0000.303 (R) [notice] Site information: multisite = 0
+0000.304 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.310 (R) [notice] New table prefix: a4_
+0000.320 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: a4_options
+0000.636 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.677 (R) [notice] Atomic restore: renaming new table (a4_options) to final table name (wp_options)
+0000.728 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: a4_users
+0000.797 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.823 (R) [notice] Atomic restore: renaming new table (a4_users) to final table name (wp_users)
+0000.840 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: a4_usermeta
+0000.912 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.938 (R) [notice] Atomic restore: renaming new table (a4_usermeta) to final table name (wp_usermeta)
+0000.990 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: a4_commentmeta
+0001.050 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0001.078 (R) [notice] Atomic restore: renaming new table (a4_commentmeta) to final table name (wp_commentmeta)
+0001.099 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: a4_comments
+0001.172 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0001.197 (R) [notice] Atomic restore: renaming new table (a4_comments) to final table name (wp_comments)
+0001.214 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: a4_links
+0001.256 (R) [notice] Atomic restore: dropping original table (wp_links)
+0001.275 (R) [notice] Atomic restore: renaming new table (a4_links) to final table name (wp_links)
+0001.296 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: a4_postmeta
+0001.373 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0001.398 (R) [notice] Atomic restore: renaming new table (a4_postmeta) to final table name (wp_postmeta)
+0001.419 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: a4_posts
+0001.711 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0001.749 (R) [notice] Atomic restore: renaming new table (a4_posts) to final table name (wp_posts)
+0001.768 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: a4_term_relationships
+0001.813 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0001.828 (R) [notice] Atomic restore: renaming new table (a4_term_relationships) to final table name (wp_term_relationships)
+0001.843 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: a4_term_taxonomy
+0001.897 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0001.914 (R) [notice] Atomic restore: renaming new table (a4_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.930 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: a4_termmeta
+0001.976 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0001.992 (R) [notice] Atomic restore: renaming new table (a4_termmeta) to final table name (wp_termmeta)
+0002.010 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: a4_terms
+0002.060 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0002.075 (R) [notice] Atomic restore: renaming new table (a4_terms) to final table name (wp_terms)
+0002.090 (R) [notice] Processing table (InnoDB):  wp_e_events - will restore as: a4_e_events
+0002.137 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0002.157 (R) [notice] Atomic restore: renaming new table (a4_e_events) to final table name (wp_e_events)
+0002.173 (R) [notice] Processing table (InnoDB):  wp_post_views - will restore as: a4_post_views
+0002.219 (R) [notice] Database queries processed: 50 in 2.05 seconds
+0002.220 (R) [notice] Atomic restore: dropping original table (wp_post_views)
+0002.239 (R) [notice] Atomic restore: renaming new table (a4_post_views) to final table name (wp_post_views)
+0002.257 (R) [notice] Processing table (InnoDB):  wp_wonderplugin_slider - will restore as: a4_wonderplugin_slider
+0002.297 (R) [notice] Atomic restore: dropping original table (wp_wonderplugin_slider)
+0002.316 (R) [notice] Atomic restore: renaming new table (a4_wonderplugin_slider) to final table name (wp_wonderplugin_slider)
+0002.329 (R) [notice] Processing table (InnoDB):  wp_wpbackitup_job_control - will restore as: a4_wpbackitup_job_control
+0002.369 (R) [notice] Atomic restore: dropping original table (wp_wpbackitup_job_control)
+0002.390 (R) [notice] Atomic restore: renaming new table (a4_wpbackitup_job_control) to final table name (wp_wpbackitup_job_control)
+0002.410 (R) [notice] Processing table (InnoDB):  wp_wpbackitup_job_items - will restore as: a4_wpbackitup_job_items
+0002.747 (R) [notice] Atomic restore: dropping original table (wp_wpbackitup_job_items)
+0002.787 (R) [notice] Atomic restore: renaming new table (a4_wpbackitup_job_items) to final table name (wp_wpbackitup_job_items)
+0002.805 (R) [notice] Processing table (InnoDB):  wp_wpbackitup_job_tasks - will restore as: a4_wpbackitup_job_tasks
+0002.886 (R) [notice] Disabling Maintenance mode&#8230;
+0002.888 (R) [notice] Atomic restore: dropping original table (wp_wpbackitup_job_tasks)
+0002.906 (R) [notice] Atomic restore: renaming new table (a4_wpbackitup_job_tasks) to final table name (wp_wpbackitup_job_tasks)
+0002.924 (R) [notice] Finished: lines processed: 69 in 2.76 seconds
+0002.928 (R) [notice] Cleaning up rubbish...
+0002.953 (R) [notice] Unpacking backup... (backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-themes.zip, 12.3 MB)
+0009.278 (R) [notice] Unzip progress: 551 out of 551 files (16.2 MB, themes/twentytwentytwo/theme.json)
+0009.292 (R) [notice] Moving old data out of the way...
+0009.857 (R) [notice] Moving unpacked backup into place...
+0010.509 (R) [notice] Cleaning up rubbish...
+0010.531 (R) [notice] Unpacking backup... (backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-uploads.zip, 46.7 MB)
+0013.164 (R) [notice] Unzip progress: 168 out of 168 files (46.7 MB, uploads/elementor/css/post-55.css)
+0013.180 (R) [notice] Moving old data out of the way...
+0013.428 (R) [notice] Moving unpacked backup into place...
+0013.645 (R) [notice] Cleaning up rubbish...
+0013.663 (R) [notice] Unpacking backup... (backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-others.zip, 1 MB)
+0014.671 (R) [notice] Unzip progress: 70 out of 70 files (1.1 MB, wpbackitup_restore/web.config)
+0014.717 (R) [notice] Cleaning up rubbish...
+0014.891 (R) [notice] Plugin path borderless/borderless.php not found: de-activating.
+0014.891 (R) [notice] Plugin path font-awesome/index.php not found: de-activating.
+0014.892 (R) [notice] Plugin path happy-elementor-addons/plugin.php not found: de-activating.
+0014.892 (R) [notice] Plugin path pollen/pollen.php not found: de-activating.
+0014.893 (R) [notice] Plugin path wp-backitup/wp-backitup.php not found: de-activating.
+0014.894 (R) [notice] Plugin path wp-carousel-free/wp-carousel-free.php not found: de-activating.
+0015.046 (R) [notice] Restore successful!
