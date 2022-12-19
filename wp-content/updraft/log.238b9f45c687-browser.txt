@@ -1,0 +1,84 @@
+0000.040 (R) [notice] Looking for db archive: file name: backup_2022-12-19-1022_EnersysWeb_acecf91a9f0a-db.gz
+0000.041 (R) [notice] Archive is expected to be size: 685.2 KB: OK
+0000.066 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.075 (R) [notice] Unpacking backup... (backup_2022-12-19-1022_EnersysWeb_acecf91a9f0a-db.gz, 0.7 Mb)
+0000.118 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.175 (R) [notice] Enabling Maintenance mode&#8230;
+0000.194 (R) [notice] Backup of: http://localhost:8000
+0000.195 (R) [notice] Content URL: http://localhost:8000/wp-content
+0000.197 (R) [notice] Uploads URL: http://localhost:8000/wp-content/uploads
+0000.199 (R) [notice] Old table prefix: wp_
+0000.201 (R) [notice] Site information: multisite = 0
+0000.203 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.207 (R) [notice] New table prefix: w6_
+0000.215 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: w6_options
+0000.421 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.449 (R) [notice] Atomic restore: renaming new table (w6_options) to final table name (wp_options)
+0000.487 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: w6_users
+0000.526 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.540 (R) [notice] Atomic restore: renaming new table (w6_users) to final table name (wp_users)
+0000.553 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: w6_usermeta
+0000.588 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.602 (R) [notice] Atomic restore: renaming new table (w6_usermeta) to final table name (wp_usermeta)
+0000.615 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: w6_commentmeta
+0000.649 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.660 (R) [notice] Atomic restore: renaming new table (w6_commentmeta) to final table name (wp_commentmeta)
+0000.674 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: w6_comments
+0000.716 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.733 (R) [notice] Atomic restore: renaming new table (w6_comments) to final table name (wp_comments)
+0000.746 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: w6_links
+0000.778 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.791 (R) [notice] Atomic restore: renaming new table (w6_links) to final table name (wp_links)
+0000.806 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: w6_postmeta
+0000.865 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0000.878 (R) [notice] Atomic restore: renaming new table (w6_postmeta) to final table name (wp_postmeta)
+0000.891 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: w6_posts
+0001.066 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0001.088 (R) [notice] Atomic restore: renaming new table (w6_posts) to final table name (wp_posts)
+0001.107 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: w6_term_relationships
+0001.137 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0001.150 (R) [notice] Atomic restore: renaming new table (w6_term_relationships) to final table name (wp_term_relationships)
+0001.163 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: w6_term_taxonomy
+0001.194 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0001.208 (R) [notice] Atomic restore: renaming new table (w6_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.221 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: w6_termmeta
+0001.251 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0001.263 (R) [notice] Atomic restore: renaming new table (w6_termmeta) to final table name (wp_termmeta)
+0001.276 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: w6_terms
+0001.310 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0001.325 (R) [notice] Atomic restore: renaming new table (w6_terms) to final table name (wp_terms)
+0001.339 (R) [notice] Processing table (InnoDB):  wp_e_events - will restore as: w6_e_events
+0001.370 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0001.383 (R) [notice] Atomic restore: renaming new table (w6_e_events) to final table name (wp_e_events)
+0001.396 (R) [notice] Processing table (MyISAM):  wp_mpg_cache - will restore as: w6_mpg_cache
+0001.411 (R) [notice] Database queries processed: 50 in 1.28 seconds
+0001.414 (R) [notice] Atomic restore: dropping original table (wp_mpg_cache)
+0001.419 (R) [notice] Atomic restore: renaming new table (w6_mpg_cache) to final table name (wp_mpg_cache)
+0001.425 (R) [notice] Processing table (MyISAM):  wp_mpg_logs - will restore as: w6_mpg_logs
+0001.438 (R) [notice] Atomic restore: dropping original table (wp_mpg_logs)
+0001.443 (R) [notice] Atomic restore: renaming new table (w6_mpg_logs) to final table name (wp_mpg_logs)
+0001.451 (R) [notice] Processing table (MyISAM):  wp_mpg_projects - will restore as: w6_mpg_projects
+0001.467 (R) [notice] Atomic restore: dropping original table (wp_mpg_projects)
+0001.475 (R) [notice] Atomic restore: renaming new table (w6_mpg_projects) to final table name (wp_mpg_projects)
+0001.482 (R) [notice] Processing table (MyISAM):  wp_mpg_spintax - will restore as: w6_mpg_spintax
+0001.494 (R) [notice] Atomic restore: dropping original table (wp_mpg_spintax)
+0001.502 (R) [notice] Atomic restore: renaming new table (w6_mpg_spintax) to final table name (wp_mpg_spintax)
+0001.507 (R) [notice] Processing table (InnoDB):  wp_post_views - will restore as: w6_post_views
+0001.537 (R) [notice] Atomic restore: dropping original table (wp_post_views)
+0001.551 (R) [notice] Atomic restore: renaming new table (w6_post_views) to final table name (wp_post_views)
+0001.566 (R) [notice] Processing table (InnoDB):  wp_wonderplugin_slider - will restore as: w6_wonderplugin_slider
+0001.595 (R) [notice] Atomic restore: dropping original table (wp_wonderplugin_slider)
+0001.609 (R) [notice] Atomic restore: renaming new table (w6_wonderplugin_slider) to final table name (wp_wonderplugin_slider)
+0001.624 (R) [notice] Processing table (InnoDB):  wp_wpbackitup_job_control - will restore as: w6_wpbackitup_job_control
+0001.652 (R) [notice] Atomic restore: dropping original table (wp_wpbackitup_job_control)
+0001.664 (R) [notice] Atomic restore: renaming new table (w6_wpbackitup_job_control) to final table name (wp_wpbackitup_job_control)
+0001.678 (R) [notice] Processing table (InnoDB):  wp_wpbackitup_job_items - will restore as: w6_wpbackitup_job_items
+0001.891 (R) [notice] Atomic restore: dropping original table (wp_wpbackitup_job_items)
+0001.911 (R) [notice] Atomic restore: renaming new table (w6_wpbackitup_job_items) to final table name (wp_wpbackitup_job_items)
+0001.926 (R) [notice] Processing table (InnoDB):  wp_wpbackitup_job_tasks - will restore as: w6_wpbackitup_job_tasks
+0001.989 (R) [notice] Disabling Maintenance mode&#8230;
+0001.994 (R) [notice] Atomic restore: dropping original table (wp_wpbackitup_job_tasks)
+0002.005 (R) [notice] Atomic restore: renaming new table (w6_wpbackitup_job_tasks) to final table name (wp_wpbackitup_job_tasks)
+0002.021 (R) [notice] Finished: lines processed: 78 in 1.89 seconds
+0002.025 (R) [notice] Cleaning up rubbish...
+0002.117 (R) [notice] Restore successful!
