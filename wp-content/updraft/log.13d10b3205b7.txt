@@ -1,0 +1,106 @@
+0000.024 () Opened log file at time: Tue, 20 Dec 2022 06:45:40 +0000 on http://localhost:8000
+0000.025 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 8.0.26 (apache2handler, Linux d70483bf0e8e 5.10.16.3-microsoft-standard-WSL2 #1 SMP Fri Apr 2 22:23:49 UTC 2021 x86_64) MySQL: 8.0.31 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.54 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.5M | 8M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.026 () Free space on disk containing Updraft's temporary directory: 207382.3 MB
+0000.412 () Restore setup, now closing connection and starting restore over AJAX.
+0000.025 () Opened log file at time: Tue, 20 Dec 2022 06:45:41 +0000 on http://localhost:8000
+0000.025 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 8.0.26 (apache2handler, Linux d70483bf0e8e 5.10.16.3-microsoft-standard-WSL2 #1 SMP Fri Apr 2 22:23:49 UTC 2021 x86_64) MySQL: 8.0.31 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.54 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.7M | 6M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.026 () Free space on disk containing Updraft's temporary directory: 207397.1 MB
+0000.049 () Ensuring WP_Filesystem is setup for a restore
+0000.058 () WP_Filesystem is setup and ready for a restore
+0000.068 () Restore job started. Entities to restore: db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_mpg_cache","wp_mpg_logs","wp_mpg_projects","wp_mpg_spintax","wp_post_views","wp_wonderplugin_slider","wp_wpbackitup_job_control","wp_wpbackitup_job_items","wp_wpbackitup_job_tasks"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.080 () PHP event: code E_WARNING: mkdir(): File exists (line 545, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.089 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.094 () Entity: db
+0000.095 () restore_backup(backup_file=backup_2022-12-20-0611_EnersysWeb_0ff48884c832-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.095 () Unpacking backup... (backup_2022-12-20-0611_EnersysWeb_0ff48884c832-db.gz, 0.7 Mb)
+0000.096 () PHP event: code E_WARNING: mkdir(): File exists (line 545, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.126 () Database successfully unpacked
+0000.128 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.132 () Using direct MySQL access; value of use_mysqli is: 1
+0000.133 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.206 () Max packet size: 64 MB
+0000.206 () Entering maintenance mode
+0000.207 () Enabling Maintenance mode&#8230;
+0000.217 () is_stored_routine_supported(): An error occurred while attempting to check the support of stored routines creation (You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable) - CREATE FUNCTION updraft_test_stored_routine() RETURNS tinyint(1) DETERMINISTIC READS SQL DATA RETURN true)
+0000.218 () Backup of: http://localhost:8000
+0000.219 () Content URL: http://localhost:8000/wp-content
+0000.219 () Uploads URL: http://localhost:8000/wp-content/uploads
+0000.220 () Old table prefix: wp_
+0000.223 () Site information: multisite=0
+0000.224 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.225 () New table prefix: l6_
+0000.235 () Processing table (InnoDB): wp_options - will restore as: l6_options
+0000.480 () Atomic restore: dropping original table (wp_options)
+0000.494 () Atomic restore: renaming new table (l6_options) to final table name (wp_options)
+0000.509 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.544 () Processing table (InnoDB): wp_users - will restore as: l6_users
+0000.594 () Atomic restore: dropping original table (wp_users)
+0000.609 () Atomic restore: renaming new table (l6_users) to final table name (wp_users)
+0000.625 () Processing table (InnoDB): wp_usermeta - will restore as: l6_usermeta
+0000.674 () Atomic restore: dropping original table (wp_usermeta)
+0000.688 () Atomic restore: renaming new table (l6_usermeta) to final table name (wp_usermeta)
+0000.701 () Processing table (InnoDB): wp_commentmeta - will restore as: l6_commentmeta
+0000.737 () Atomic restore: dropping original table (wp_commentmeta)
+0000.753 () Atomic restore: renaming new table (l6_commentmeta) to final table name (wp_commentmeta)
+0000.766 () Processing table (InnoDB): wp_comments - will restore as: l6_comments
+0000.823 () Atomic restore: dropping original table (wp_comments)
+0000.836 () Atomic restore: renaming new table (l6_comments) to final table name (wp_comments)
+0000.852 () Processing table (InnoDB): wp_links - will restore as: l6_links
+0000.889 () Atomic restore: dropping original table (wp_links)
+0000.901 () Atomic restore: renaming new table (l6_links) to final table name (wp_links)
+0000.918 () Processing table (InnoDB): wp_postmeta - will restore as: l6_postmeta
+0001.002 () Atomic restore: dropping original table (wp_postmeta)
+0001.015 () Atomic restore: renaming new table (l6_postmeta) to final table name (wp_postmeta)
+0001.030 () Processing table (InnoDB): wp_posts - will restore as: l6_posts
+0001.260 () Atomic restore: dropping original table (wp_posts)
+0001.275 () Atomic restore: renaming new table (l6_posts) to final table name (wp_posts)
+0001.292 () Processing table (InnoDB): wp_term_relationships - will restore as: l6_term_relationships
+0001.330 () Atomic restore: dropping original table (wp_term_relationships)
+0001.342 () Atomic restore: renaming new table (l6_term_relationships) to final table name (wp_term_relationships)
+0001.355 () Processing table (InnoDB): wp_term_taxonomy - will restore as: l6_term_taxonomy
+0001.400 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.412 () Atomic restore: renaming new table (l6_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.426 () Processing table (InnoDB): wp_termmeta - will restore as: l6_termmeta
+0001.463 () Atomic restore: dropping original table (wp_termmeta)
+0001.477 () Atomic restore: renaming new table (l6_termmeta) to final table name (wp_termmeta)
+0001.493 () Processing table (InnoDB): wp_terms - will restore as: l6_terms
+0001.533 () Atomic restore: dropping original table (wp_terms)
+0001.546 () Atomic restore: renaming new table (l6_terms) to final table name (wp_terms)
+0001.561 () Processing table (InnoDB): wp_e_events - will restore as: l6_e_events
+0001.600 () Atomic restore: dropping original table (wp_e_events)
+0001.612 () Database queries processed: 50 in 1.48 seconds
+0001.613 () Atomic restore: renaming new table (l6_e_events) to final table name (wp_e_events)
+0001.624 () Processing table (MyISAM): wp_mpg_cache - will restore as: l6_mpg_cache
+0001.638 () Atomic restore: dropping original table (wp_mpg_cache)
+0001.645 () Atomic restore: renaming new table (l6_mpg_cache) to final table name (wp_mpg_cache)
+0001.651 () Processing table (MyISAM): wp_mpg_logs - will restore as: l6_mpg_logs
+0001.665 () Atomic restore: dropping original table (wp_mpg_logs)
+0001.673 () Atomic restore: renaming new table (l6_mpg_logs) to final table name (wp_mpg_logs)
+0001.680 () Processing table (MyISAM): wp_mpg_projects - will restore as: l6_mpg_projects
+0001.702 () Atomic restore: dropping original table (wp_mpg_projects)
+0001.711 () Atomic restore: renaming new table (l6_mpg_projects) to final table name (wp_mpg_projects)
+0001.717 () Processing table (MyISAM): wp_mpg_spintax - will restore as: l6_mpg_spintax
+0001.732 () Atomic restore: dropping original table (wp_mpg_spintax)
+0001.737 () Atomic restore: renaming new table (l6_mpg_spintax) to final table name (wp_mpg_spintax)
+0001.745 () Processing table (InnoDB): wp_post_views - will restore as: l6_post_views
+0001.784 () Atomic restore: dropping original table (wp_post_views)
+0001.801 () Atomic restore: renaming new table (l6_post_views) to final table name (wp_post_views)
+0001.815 () Processing table (InnoDB): wp_wonderplugin_slider - will restore as: l6_wonderplugin_slider
+0001.860 () Atomic restore: dropping original table (wp_wonderplugin_slider)
+0001.872 () Atomic restore: renaming new table (l6_wonderplugin_slider) to final table name (wp_wonderplugin_slider)
+0001.885 () Processing table (InnoDB): wp_wpbackitup_job_control - will restore as: l6_wpbackitup_job_control
+0001.921 () Atomic restore: dropping original table (wp_wpbackitup_job_control)
+0001.933 () Atomic restore: renaming new table (l6_wpbackitup_job_control) to final table name (wp_wpbackitup_job_control)
+0001.947 () Processing table (InnoDB): wp_wpbackitup_job_items - will restore as: l6_wpbackitup_job_items
+0002.191 () Atomic restore: dropping original table (wp_wpbackitup_job_items)
+0002.202 () Atomic restore: renaming new table (l6_wpbackitup_job_items) to final table name (wp_wpbackitup_job_items)
+0002.215 () Processing table (InnoDB): wp_wpbackitup_job_tasks - will restore as: l6_wpbackitup_job_tasks
+0002.294 () Unlocking database and leaving maintenance mode
+0002.295 () Disabling Maintenance mode&#8230;
+0002.296 () Atomic restore: dropping original table (wp_wpbackitup_job_tasks)
+0002.308 () Atomic restore: renaming new table (l6_wpbackitup_job_tasks) to final table name (wp_wpbackitup_job_tasks)
+0002.323 () Finished: lines processed: 79 in 2.19 seconds
+0002.326 () Cleaning up rubbish...
+0002.458 () Elementor's clear cache method exists and will be executed
+0002.562 () Restore successful!
+0002.563 () Restore successful
