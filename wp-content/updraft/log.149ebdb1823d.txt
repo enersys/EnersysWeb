@@ -1,0 +1,364 @@
+0000.006 (0) Opened log file at time: Mon, 19 Dec 2022 17:40:08 +0000 on http://localhost:8000
+0000.010 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 8.0.26 (apache2handler, Linux ba8bc9cabb6b 5.10.104-linuxkit #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 aarch64) MySQL: 8.0.31 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.54 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.7M | 6M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.015 (0) Free space on disk containing Updraft's temporary directory: 354896.9 MB
+0000.032 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.041 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.047 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2022-12-19 17:40:08
+0000.051 (0) Semaphore (fd, wp_options) reset to 1
+0000.055 (0) Set semaphore last lock (fd) time to 2022-12-19 17:40:08
+0000.059 (0) Semaphore lock (fd) complete
+0000.070 (0) Backup run: resumption=0, nonce=149ebdb1823d, file_nonce=149ebdb1823d begun at=1671471608 (0s ago), job type=backup
+0000.077 (0) Scheduling a resumption (1) after 300 seconds (1671471908) in case this run gets aborted
+0000.088 (0) Checking if we have a zip executable available
+0000.096 (0) Creation of backups of directories: beginning
+0000.115 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.838 (0) Total entities for the zip file: 880 directories, 3357 files (0 skipped as non-modified), 58.3 MB
+0005.855 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0011.457 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 100 files added (on-disk size: 158 KB)
+0011.640 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 200 files added (on-disk size: 158 KB)
+0011.862 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 300 files added (on-disk size: 158 KB)
+0012.046 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 400 files added (on-disk size: 158 KB)
+0012.250 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 500 files added (on-disk size: 158 KB)
+0012.407 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 600 files added (on-disk size: 158 KB)
+0012.580 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 700 files added (on-disk size: 158 KB)
+0012.790 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 800 files added (on-disk size: 158 KB)
+0013.002 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 900 files added (on-disk size: 158 KB)
+0013.176 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1000 files added (on-disk size: 158 KB)
+0013.184 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.9 MB, 3357 files batched, 1001 (1002) added so far); re-opening (prior size: 158 KB)
+0024.997 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1100 files added (on-disk size: 6872 KB)
+0025.165 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1200 files added (on-disk size: 6872 KB)
+0025.329 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1300 files added (on-disk size: 6872 KB)
+0025.514 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1400 files added (on-disk size: 6872 KB)
+0025.668 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1500 files added (on-disk size: 6872 KB)
+0025.816 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1600 files added (on-disk size: 6872 KB)
+0025.986 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1700 files added (on-disk size: 6872 KB)
+0026.167 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1800 files added (on-disk size: 6872 KB)
+0026.356 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 1900 files added (on-disk size: 6872 KB)
+0026.530 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2000 files added (on-disk size: 6872 KB)
+0026.538 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12 MB, 3357 files batched, 1001 (2003) added so far); re-opening (prior size: 6872 KB)
+0039.015 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2100 files added (on-disk size: 11463.8 KB)
+0039.181 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2200 files added (on-disk size: 11463.8 KB)
+0039.339 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2300 files added (on-disk size: 11463.8 KB)
+0039.507 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2400 files added (on-disk size: 11463.8 KB)
+0039.688 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2500 files added (on-disk size: 11463.8 KB)
+0039.859 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2600 files added (on-disk size: 11463.8 KB)
+0040.031 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2700 files added (on-disk size: 11463.8 KB)
+0040.202 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2800 files added (on-disk size: 11463.8 KB)
+0040.374 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 2900 files added (on-disk size: 11463.8 KB)
+0040.542 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 3000 files added (on-disk size: 11463.8 KB)
+0040.552 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.9 MB, 3357 files batched, 1001 (3004) added so far); re-opening (prior size: 11463.8 KB)
+0055.708 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 3100 files added (on-disk size: 17141.3 KB)
+0055.896 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 3200 files added (on-disk size: 17141.3 KB)
+0056.072 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.tmp: 3300 files added (on-disk size: 17141.3 KB)
+0064.694 (0) Creating zip file manifest (backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.list-temp.tmp)
+0067.759 (0) Successfully created zip file manifest (size: 281426)
+0068.580 (0) Created plugins zip (0) - 17865.4 KB in 68.4 s (261 KB/s) (sha1: 2ef9be36845cd8e40e66ab7202ee67839d03996d, sha256: 3be40497b6e97cf1c4f7d9dd917f1a68cb941456aacd9d6d9cd9ab09024ad309)
+0068.587 (0) Deleting old temporary file: log.238b9f45c687-browser.txt
+0068.619 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0068.629 (0) No remote despatch: user chose no remote backup service
+0068.642 (0) Recording as successfully uploaded: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip
+0068.654 (0) Deleting zip manifest (backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip.list.tmp)
+0068.666 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0068.672 (0) Number of backup sets in history: 3; groups (db): 1
+0068.678 (0) Examining (for databases) backup set with group_id=0, nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0068.682 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.685 (0) Examining (for databases) backup set with group_id=0, nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0068.686 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.687 (0) Examining (for databases) backup set with group_id=0, nonce=2fb37a83a381, datestamp=1671102584 (Dec 15 2022 11:09:44)
+0068.688 (0) 1671102584: db: this set includes a database (backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-db.gz); db count is now 2
+0068.689 (0) 1671102584: db: over retain limit (2); will delete this database
+0068.690 (0) Delete file: backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-db.gz, service=none
+0068.699 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0068.703 (0) Number of backup sets in history: 3; groups (files): 1
+0068.707 (0) Examining (for files) backup set with nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0068.707 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.711 (0) Examining (for files) backup set with nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0068.712 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.713 (0) Examining (for files) backup set with nonce=2fb37a83a381, datestamp=1671102584 (Dec 15 2022 11:09:44)
+0068.714 (0) plugins: over retain limit (2); will delete this file entity
+0068.715 (0) themes: over retain limit (2); will delete this file entity
+0068.716 (0) uploads: over retain limit (2); will delete this file entity
+0068.717 (0) others: over retain limit (2); will delete this file entity
+0068.718 (0) Delete file: backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-plugins.zip, service=none
+0068.723 (0) Delete file: backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-themes.zip, service=none
+0068.727 (0) Delete file: backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-uploads.zip, service=none
+0068.734 (0) Delete file: backup_2022-12-15-1109_EnersysWeb_2fb37a83a381-others.zip, service=none
+0068.742 (0) This backup set is now empty; will remove from history
+0068.746 (0) Corresponding log file (log.2fb37a83a381.txt) not found - must have already been deleted
+0068.750 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0068.773 (0) Beginning creation of dump of themes (split every: 400 MB)
+0069.446 (0) Total entities for the zip file: 93 directories, 458 files (0 skipped as non-modified), 16.2 MB
+0069.612 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0069.807 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0070.018 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0070.187 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0078.843 (0) Creating zip file manifest (backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-themes.zip.list-temp.tmp)
+0079.225 (0) Successfully created zip file manifest (size: 32217)
+0079.774 (0) Created themes zip (0) - 12574.1 KB in 11 s (1144.6 KB/s) (sha1: 7d4e2dad8f05cd89fb7e851081f3854a5e4139a3, sha256: 6183a50d320a943f4c0e34927aebb618d9bc0625e1456baa51f8cc356ea0c5b4)
+0079.796 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0079.800 (0) No remote despatch: user chose no remote backup service
+0079.804 (0) Recording as successfully uploaded: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-themes.zip
+0079.810 (0) Deleting zip manifest (backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-themes.zip.list.tmp)
+0079.820 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0079.826 (0) Number of backup sets in history: 2; groups (db): 1
+0079.831 (0) Examining (for databases) backup set with group_id=0, nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0079.837 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.841 (0) Examining (for databases) backup set with group_id=0, nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0079.842 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.843 (0) Number of backup sets in history: 2; groups (files): 1
+0079.848 (0) Examining (for files) backup set with nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0079.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.854 (0) Examining (for files) backup set with nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0079.855 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.857 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0079.882 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0079.886 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0079.892 (0) finding files: 2022: adding to list (1)
+0079.896 (0) finding files: elementor: adding to list (2)
+0079.902 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0080.135 (0) Total entities for the zip file: 4 directories, 191 files (0 skipped as non-modified), 57.8 MB
+0080.242 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.5 MB, 191 files batched, 58 (58) added so far); re-opening (prior size: 0 KB)
+0088.616 (0) A useful amount of data was added after this amount of zip processing: 9.4 s (normalised: 9.2 s, rate: 2780.7 KB/s)
+0088.698 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-uploads.zip.tmp: 100 files added (on-disk size: 26144.5 KB)
+0088.790 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 191 files batched, 100 (158) added so far); re-opening (prior size: 26144.5 KB)
+0105.001 (0) A useful amount of data was added after this amount of zip processing: 16.8 s (normalised: 16.8 s, rate: 1526.1 KB/s)
+0123.319 (0) Creating zip file manifest (backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-uploads.zip.list-temp.tmp)
+0123.504 (0) Successfully created zip file manifest (size: 11304)
+0126.096 (0) Created uploads zip (0) - 59179.7 KB in 46.2 s (1281.7 KB/s) (sha1: 60cc1dfa1e6fa1ff3a3f57a85b12bbb319408097, sha256: e854bd0e5dfb53f38045ed668a63036f8fbfc429cbda23cd77095f1b90feafbe)
+0126.117 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0126.121 (0) No remote despatch: user chose no remote backup service
+0126.125 (0) Recording as successfully uploaded: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-uploads.zip
+0126.132 (0) Deleting zip manifest (backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-uploads.zip.list.tmp)
+0126.140 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0126.145 (0) Number of backup sets in history: 2; groups (db): 1
+0126.148 (0) Examining (for databases) backup set with group_id=0, nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0126.151 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0126.154 (0) Examining (for databases) backup set with group_id=0, nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0126.155 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0126.156 (0) Number of backup sets in history: 2; groups (files): 1
+0126.160 (0) Examining (for files) backup set with nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0126.160 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0126.163 (0) Examining (for files) backup set with nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0126.165 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0126.166 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0126.185 (0) Beginning backup of other directories found in the content directory (index: 0)
+0126.190 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0126.193 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0126.199 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0126.202 (0) finding files: fonts: adding to list (1)
+0126.207 (0) finding files: fonts-old: adding to list (2)
+0126.210 (0) finding files: index.php: adding to list (3)
+0126.214 (0) finding files: index.php-old: adding to list (4)
+0126.217 (0) finding files: mu-plugins: adding to list (5)
+0126.221 (0) finding files: plugins: skipping: this is the plugins directory
+0126.223 (0) finding files: themes: skipping: this is the themes directory
+0126.226 (0) finding files: updraft: skipping: this is the updraft directory
+0126.229 (0) finding files: upgrade: skipping: excluded by options
+0126.234 (0) finding files: uploads: skipping: this is the uploads directory
+0126.237 (0) finding files: wpbackitup_backups: skipping: excluded by options (glob)
+0126.241 (0) finding files: wpbackitup_restore: adding to list (6)
+0126.244 (0) finding files: wpbackitup_restore-old: adding to list (7)
+0126.430 (0) Total entities for the zip file: 9 directories, 133 files (0 skipped as non-modified), 2.1 MB
+0126.601 (0) Zip: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0128.734 (0) Creating zip file manifest (backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-others.zip.list-temp.tmp)
+0128.849 (0) Successfully created zip file manifest (size: 7923)
+0128.969 (0) Created others zip (0) - 2122.7 KB in 2.7 s (783.4 KB/s) (sha1: 31483b4c0d988ce414d2205d96cac225fd2034f6, sha256: 5d1d48ea94d713524faed11497b7d38cc1e591c11de0af16a8a982afc5c1b3e4)
+0128.990 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0128.993 (0) No remote despatch: user chose no remote backup service
+0128.997 (0) Recording as successfully uploaded: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-others.zip
+0129.004 (0) Deleting zip manifest (backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-others.zip.list.tmp)
+0129.013 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0129.019 (0) Number of backup sets in history: 2; groups (db): 1
+0129.022 (0) Examining (for databases) backup set with group_id=0, nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0129.023 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0129.027 (0) Examining (for databases) backup set with group_id=0, nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0129.028 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0129.029 (0) Number of backup sets in history: 2; groups (files): 1
+0129.033 (0) Examining (for files) backup set with nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0129.034 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0129.041 (0) Examining (for files) backup set with nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0129.042 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0129.043 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0129.077 (0) Saving backup status to database (elements: 8)
+0129.089 (0) Beginning creation of database dump (WordPress DB)
+0129.095 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0129.151 (0) Table wp_options: Total expected rows (via COUNT): 321
+0129.154 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.307 (0) Table wp_options: Rows added in this batch (next record: 1754): 316 (uncompressed bytes in this segment=2357657) in 0.17 seconds
+0129.342 (0) Table wp_options: finishing file(s) (2, 488.9 KB)
+0129.360 (0) Table wp_users: Total expected rows (via COUNT): 1
+0129.364 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.372 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1526) in 0.01 seconds
+0129.398 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0129.420 (0) Table wp_usermeta: Total expected rows (via COUNT): 22
+0129.424 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.429 (0) Table wp_usermeta: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=2703) in 0.01 seconds
+0129.461 (0) Table wp_usermeta: finishing file(s) (2, 1.3 KB)
+0129.484 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0129.491 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.01 seconds
+0129.522 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0129.540 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0129.544 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.551 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2297) in 0.01 seconds
+0129.577 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0129.598 (0) Table wp_links: Total expected rows (via COUNT): 0
+0129.604 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.01 seconds
+0129.631 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0129.653 (0) Table wp_postmeta: Total expected rows (via COUNT): 408
+0129.657 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.667 (0) Table wp_postmeta: Rows added in this batch (next record: 597): 408 (uncompressed bytes in this segment=211269) in 0.02 seconds
+0129.703 (0) Table wp_postmeta: finishing file(s) (2, 15 KB)
+0129.729 (0) Table wp_posts: Total expected rows (via COUNT): 232
+0129.733 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.779 (0) Table wp_posts: Rows added in this batch (next record: 281): 232 (uncompressed bytes in this segment=1631461) in 0.06 seconds
+0129.817 (0) Table wp_posts: finishing file(s) (2, 106.6 KB)
+0129.836 (0) Table wp_term_relationships: Total expected rows (approximate): 23
+0129.845 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 23 (uncompressed bytes in this segment=978) in 0.01 seconds
+0129.875 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0129.900 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 5
+0129.904 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0129.915 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1118) in 0.02 seconds
+0129.955 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0129.989 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0130.000 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.02 seconds
+0130.034 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0130.053 (0) Table wp_terms: Total expected rows (via COUNT): 5
+0130.057 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0130.068 (0) Table wp_terms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=920) in 0.02 seconds
+0130.096 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0130.115 (0) Table wp_e_events: Total expected rows (via COUNT): 15
+0130.119 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0130.123 (0) Table wp_e_events: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=3618) in 0.01 seconds
+0130.150 (0) Table wp_e_events: finishing file(s) (2, 0.8 KB)
+0130.169 (0) Table wp_mpg_cache: Total expected rows (via COUNT): 0
+0130.176 (0) Table wp_mpg_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=505) in 0.01 seconds
+0130.205 (0) Table wp_mpg_cache: finishing file(s) (2, 0.3 KB)
+0130.222 (0) Table wp_mpg_logs: Total expected rows (via COUNT): 0
+0130.226 (0) Table wp_mpg_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=554) in 0.01 seconds
+0130.252 (0) Table wp_mpg_logs: finishing file(s) (2, 0.4 KB)
+0130.269 (0) Table wp_mpg_projects: Total expected rows (via COUNT): 1
+0130.272 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0130.284 (0) Table wp_mpg_projects: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1815) in 0.02 seconds
+0130.311 (0) Table wp_mpg_projects: finishing file(s) (2, 0.7 KB)
+0130.328 (0) Table wp_mpg_spintax: Total expected rows (via COUNT): 0
+0130.336 (0) Table wp_mpg_spintax: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=555) in 0.01 seconds
+0130.364 (0) Table wp_mpg_spintax: finishing file(s) (2, 0.4 KB)
+0130.382 (0) Table wp_post_views: Total expected rows (approximate): 0
+0130.385 (0) Table wp_post_views: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=713) in 0.01 seconds
+0130.413 (0) Table wp_post_views: finishing file(s) (2, 0.4 KB)
+0130.431 (0) Table wp_wonderplugin_slider: Total expected rows (via COUNT): 1
+0130.437 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0130.444 (0) Table wp_wonderplugin_slider: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=10990) in 0.02 seconds
+0130.473 (0) Table wp_wonderplugin_slider: finishing file(s) (2, 3 KB)
+0130.494 (0) Table wp_wpbackitup_job_control: Total expected rows (via COUNT): 1
+0130.498 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0130.502 (0) Table wp_wpbackitup_job_control: Rows added in this batch (next record: 1670995005): 1 (uncompressed bytes in this segment=2035) in 0.01 seconds
+0130.532 (0) Table wp_wpbackitup_job_control: finishing file(s) (2, 0.7 KB)
+0130.557 (0) Table wp_wpbackitup_job_items: Total expected rows (approximate): 5522
+0130.623 (0) Table wp_wpbackitup_job_items: Rows added in this batch (next record: 5351): 5351 (uncompressed bytes in this segment=953255) in 0.07 seconds
+0130.664 (0) Table wp_wpbackitup_job_items: finishing file(s) (2, 67 KB)
+0130.687 (0) Table wp_wpbackitup_job_tasks: Total expected rows (via COUNT): 19
+0130.691 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0130.699 (0) Table wp_wpbackitup_job_tasks: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=4670) in 0.02 seconds
+0130.733 (0) Table wp_wpbackitup_job_tasks: finishing file(s) (2, 1.1 KB)
+0130.737 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wp-content/updraft/backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db.gz (line 1922, wp-content/plugins/updraftplus/backup.php)
+0130.750 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_options.table.tmpr1755.gz (1/22/fopen): adding to final database dump
+0132.233 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_options.table.gz (2/22/fopen): adding to final database dump
+0132.237 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_users.table.tmpr2.gz (3/22/fopen): adding to final database dump
+0132.245 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_users.table.gz (4/22/fopen): adding to final database dump
+0132.248 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_usermeta.table.tmpr23.gz (5/22/fopen): adding to final database dump
+0132.255 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_usermeta.table.gz (6/22/fopen): adding to final database dump
+0132.258 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_commentmeta.table.tmpr0.gz (7/22/fopen): adding to final database dump
+0132.268 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_commentmeta.table.gz (8/22/fopen): adding to final database dump
+0132.272 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_comments.table.tmpr2.gz (9/22/fopen): adding to final database dump
+0132.280 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_comments.table.gz (10/22/fopen): adding to final database dump
+0132.283 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_links.table.tmpr0.gz (11/22/fopen): adding to final database dump
+0132.291 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_links.table.gz (12/22/fopen): adding to final database dump
+0132.294 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_postmeta.table.tmpr598.gz (13/22/fopen): adding to final database dump
+0132.362 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_postmeta.table.gz (14/22/fopen): adding to final database dump
+0132.370 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_posts.table.tmpr282.gz (15/22/fopen): adding to final database dump
+0132.753 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_posts.table.gz (16/22/fopen): adding to final database dump
+0132.758 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_term_relationships.table.tmpr100001.gz (17/22/fopen): adding to final database dump
+0132.766 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_term_relationships.table.gz (18/22/fopen): adding to final database dump
+0132.769 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_term_taxonomy.table.tmpr6.gz (19/22/fopen): adding to final database dump
+0132.778 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_term_taxonomy.table.gz (20/22/fopen): adding to final database dump
+0132.782 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_termmeta.table.tmpr0.gz (21/22/fopen): adding to final database dump
+0132.791 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_termmeta.table.gz (22/22/fopen): adding to final database dump
+0132.794 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_terms.table.tmpr6.gz (23/22/fopen): adding to final database dump
+0132.802 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_terms.table.gz (24/22/fopen): adding to final database dump
+0132.806 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_e_events.table.tmpr16.gz (25/22/fopen): adding to final database dump
+0132.813 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_e_events.table.gz (26/22/fopen): adding to final database dump
+0132.816 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_mpg_cache.table.tmpr0.gz (27/22/fopen): adding to final database dump
+0132.824 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_mpg_cache.table.gz (28/22/fopen): adding to final database dump
+0132.828 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_mpg_logs.table.tmpr0.gz (29/22/fopen): adding to final database dump
+0132.835 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_mpg_logs.table.gz (30/22/fopen): adding to final database dump
+0132.838 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_mpg_projects.table.tmpr2.gz (31/22/fopen): adding to final database dump
+0132.847 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_mpg_projects.table.gz (32/22/fopen): adding to final database dump
+0132.850 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_mpg_spintax.table.tmpr0.gz (33/22/fopen): adding to final database dump
+0132.857 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_mpg_spintax.table.gz (34/22/fopen): adding to final database dump
+0132.861 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_post_views.table.tmpr1.gz (35/22/fopen): adding to final database dump
+0132.868 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_post_views.table.gz (36/22/fopen): adding to final database dump
+0132.872 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_wonderplugin_slider.table.tmpr2.gz (37/22/fopen): adding to final database dump
+0132.890 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_wonderplugin_slider.table.gz (38/22/fopen): adding to final database dump
+0132.894 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_wpbackitup_job_control.table.tmpr1670995006.gz (39/22/fopen): adding to final database dump
+0132.901 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_wpbackitup_job_control.table.gz (40/22/fopen): adding to final database dump
+0132.905 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_wpbackitup_job_items.table.tmpr5352.gz (41/22/fopen): adding to final database dump
+0133.133 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_wpbackitup_job_items.table.gz (42/22/fopen): adding to final database dump
+0133.137 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_wpbackitup_job_tasks.table.tmpr20.gz (43/22/fopen): adding to final database dump
+0133.145 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db-table-wp_wpbackitup_job_tasks.table.gz (44/22/fopen): adding to final database dump
+0133.154 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db.gz: finished writing out complete database file (690.7 KB)
+0133.249 (0) Total database tables backed up: 22 (backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db.gz, size: 707425, sha1: 40345cd38d6d8992b6861d7a1802cb60dbd87519, sha256: ab8002e8224e7eeb5ba0bead3874192274cf9c2b9c9c95010dd30d7455977ec2)
+0133.265 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-plugins.zip: plugins: This file has already been successfully uploaded
+0133.268 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-themes.zip: themes: This file has already been successfully uploaded
+0133.272 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-uploads.zip: uploads: This file has already been successfully uploaded
+0133.275 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-others.zip: others: This file has already been successfully uploaded
+0133.278 (0) backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0133.281 (0) Saving backup history. Total backup size: 90.3 MB
+0133.290 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0133.301 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0133.304 (0) No remote despatch: user chose no remote backup service
+0133.308 (0) Recording as successfully uploaded: backup_2022-12-19-1740_EnersysWeb_149ebdb1823d-db.gz
+0133.321 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0133.325 (0) Number of backup sets in history: 3; groups (db): 1
+0133.329 (0) Examining (for databases) backup set with group_id=0, nonce=149ebdb1823d, datestamp=1671471608 (Dec 19 2022 17:40:08)
+0133.332 (0) This backup set is the backup set just made, so will not be deleted.
+0133.333 (0) Examining (for databases) backup set with group_id=0, nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0133.335 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0133.338 (0) Examining (for databases) backup set with group_id=0, nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0133.339 (0) 1671418142: db: this set includes a database (backup_2022-12-19-0249_EnersysWeb_2035354448fc-db.gz); db count is now 2
+0133.340 (0) 1671418142: db: over retain limit (2); will delete this database
+0133.341 (0) Delete file: backup_2022-12-19-0249_EnersysWeb_2035354448fc-db.gz, service=none
+0133.344 (0) Deleting local copy (backup_2022-12-19-0249_EnersysWeb_2035354448fc-db.gz)
+0133.355 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0133.359 (0) Number of backup sets in history: 3; groups (files): 1
+0133.363 (0) Examining (for files) backup set with nonce=149ebdb1823d, datestamp=1671471608 (Dec 19 2022 17:40:08)
+0133.363 (0) This backup set is the backup set just made, so will not be deleted.
+0133.367 (0) This backup set is the backup set just made, so will not be deleted.
+0133.368 (0) This backup set is the backup set just made, so will not be deleted.
+0133.369 (0) This backup set is the backup set just made, so will not be deleted.
+0133.370 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0133.373 (0) Examining (for files) backup set with nonce=acecf91a9f0a, datestamp=1671445344 (Dec 19 2022 10:22:24)
+0133.374 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0133.376 (0) Examining (for files) backup set with nonce=2035354448fc, datestamp=1671418142 (Dec 19 2022 02:49:02)
+0133.378 (0) plugins: over retain limit (2); will delete this file entity
+0133.379 (0) themes: over retain limit (2); will delete this file entity
+0133.380 (0) uploads: over retain limit (2); will delete this file entity
+0133.381 (0) others: over retain limit (2); will delete this file entity
+0133.382 (0) Delete file: backup_2022-12-19-0249_EnersysWeb_2035354448fc-plugins.zip, service=none
+0133.385 (0) Deleting local copy (backup_2022-12-19-0249_EnersysWeb_2035354448fc-plugins.zip)
+0133.391 (0) Delete file: backup_2022-12-19-0249_EnersysWeb_2035354448fc-themes.zip, service=none
+0133.394 (0) Deleting local copy (backup_2022-12-19-0249_EnersysWeb_2035354448fc-themes.zip)
+0133.401 (0) Delete file: backup_2022-12-19-0249_EnersysWeb_2035354448fc-uploads.zip, service=none
+0133.404 (0) Deleting local copy (backup_2022-12-19-0249_EnersysWeb_2035354448fc-uploads.zip)
+0133.410 (0) Delete file: backup_2022-12-19-0249_EnersysWeb_2035354448fc-others.zip, service=none
+0133.413 (0) Deleting local copy (backup_2022-12-19-0249_EnersysWeb_2035354448fc-others.zip)
+0133.422 (0) This backup set is now empty; will remove from history
+0133.426 (0) Deleting log file (log.2035354448fc.txt)
+0133.431 (0) Retain: saving new backup history, because at least 10 seconds have passed since the last save (sets now: 2)
+0133.443 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0133.451 (0) Resume backup (149ebdb1823d, 0): finish run
+0133.460 (0) Decremented the semaphore (fd) by 1
+0133.466 (0) Semaphore (fd) unlocked
+0133.470 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0133.482 (0) No email will/can be sent - the user has not configured an email address.
+0133.485 (0) The backup apparently succeeded and is now complete
