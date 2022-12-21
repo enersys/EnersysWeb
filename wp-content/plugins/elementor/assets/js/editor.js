@@ -1,4 +1,4 @@
-/*! elementor - v3.9.0 - 06-12-2022 */
+/*! elementor - v3.9.1 - 14-12-2022 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -16812,7 +16812,8 @@ var SetSettings = /*#__PURE__*/function (_$e$modules$editor$Co) {
         $e.store.dispatch(_this.component.store.actions.settings({
           documentId: elementor.documents.getCurrentId(),
           elementId: container.id,
-          settings: settings
+          // Deep copy in order to avoid making container setting properties immutable.
+          settings: JSON.parse(JSON.stringify(settings))
         }));
       });
     }
