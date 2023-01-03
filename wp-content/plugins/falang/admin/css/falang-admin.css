@@ -1,0 +1,820 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#adminmenu #toplevel_page_falang .menu-icon-generic div.wp-menu-image::before {
+    background-image: url('../img/icon-20-translation.png');
+    background-repeat: no-repeat;
+    content: '';
+    margin-top: 10px;
+}
+
+/* Table language list */
+.wp-list-table.languages thead tr th{
+    white-space: nowrap;
+}
+
+.column-locale,
+.languages .column-slug {
+    width:15%;
+}
+.languages .column-order{
+   width:75px;
+}
+.languages .column-ordering{
+    width:30px;
+}
+.languages .column-flag{
+    width:50px;
+}
+.column-default_language {
+    width:10%
+}
+.column-count,
+.column-flag,
+.column-term_group {
+    width:10%
+}
+.icon-default-language:before {
+    font-family: 'dashicons';
+    content: "\f155";
+}
+
+.falang-sortable-handle {
+    background: url('../img/sorting-icon-dots.png') no-repeat center center;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+    cursor: move;
+    margin-top: -1px;
+}
+
+/* Language edition*/
+
+/* common translation page*/
+.col-action i:hover{
+    color: #222222;
+}
+
+.cancel-edit{
+    float: right;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.cancel-edit a.button{
+    background-color: orangered;
+    border-color: orangered;
+}
+.action-btn p.submit{
+    float: right;
+    margin-top: 0;
+}
+.action-btn p.submit .button{
+    margin-right: 15px;
+}
+
+/* published switch */
+/* Hide default HTML checkbox */
+label.falang-switch{
+    position: relative;
+    width: 48px;
+    height: 24px;
+    display: inline-block;
+}
+
+.falang-switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.falang-switch .slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 24px;
+}
+
+.falang-switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.falang-switch input:checked + .slider {
+    background-color: green;
+}
+
+.falang-switch input:focus + .sliderr {
+    box-shadow: 0 0 1px green;
+}
+
+.falang-switch input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+/* end published switch*/
+
+/* page translation*/
+#edit-translation h2{
+    padding: 5px 0 5px 5px;
+    background-color: #cccccc;
+}
+#edit-translation .row{
+    clear: both;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+#edit-translation .col-title{text-align: left}
+#edit-translation .col-source{
+    float: left;
+     width : calc(55% - 75px - 150px);
+}
+#edit-translation #col-container{
+    clear: both;
+    padding-right: 20px;
+}
+#edit-translation #toogle-source-panel{
+    background-color: white;
+    color: #222222;
+    border-color: #222222;
+}
+
+#edit-translation .col-action{
+    display: inline-block;
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+#edit-translation .col-target{
+    float: left;
+    width : calc(55% - 75px - 150px);
+}
+#edit-translation .col-target.full-width{
+    width: 100%;
+    margin-right: 10px;
+}
+#edit-translation .col-target input.falang{
+    width: 100%;
+}
+#edit-translation .col-label{
+    width: 75px;
+    float: left;
+}
+#edit-translation .row.action{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#edit-translation .row .action-cancel{
+    float: left;
+    max-width: 100%;
+}
+#edit-translation .row .action-save{
+    float: right;
+}
+
+#edit-translation .menu-param input{
+    width: 300px;
+}
+#edit-translation .col-target textarea.falang,
+#edit-translation .col-source textarea.falang,
+#edit-translation .col-source input.falang{
+    width: 100%;
+}
+
+
+#add-language .cancel-edit{
+    float: inherit;
+    margin-left:50px
+}
+#add-language .button-link-delete{
+    margin-left: 100px;
+}
+#add-language .button-link-delete i{
+    vertical-align: middle;
+    line-height: 1;
+}
+#add-language td label {
+    margin-right: 15px;
+}
+
+/* page term translation*/
+#edit-term-translation .alert{
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding: 5px 0px;
+}
+#edit-term-translation .alert-warning{
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+#edit-term-translation .info{
+ margin-top: 5px;
+}
+
+#edit-term-translation .row{
+    clear: both;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+#edit-term-translation .col-title{text-align: center}
+
+#edit-term-translation .col-source{
+    text-align: left;
+    float: left;
+    width : calc(55% - 75px - 150px);
+}
+#edit-term-translation .col-action{
+    display: inline-block;
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+#edit-term-translation .col-target{
+    text-align: left;
+    float: left;
+    width : calc(55% - 75px - 150px);
+}
+#edit-term-translation .col-target input, #edit-term-translation .col-source input,
+#edit-term-translation .col-target textarea, #edit-term-translation .col-source textarea{
+    width: 100%;
+}
+#edit-term-translation .col-label{
+    width: 75px;
+    float: left;
+}
+#edit-term-translation .row.action{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#edit-term-translation .row .action-cancel{
+    float: left;
+    max-width: 100%;
+    background-color: orangered;
+    border-color: orangered;
+}
+#edit-term-translation .row .action-save{
+    float: right;
+}
+/* fin page term translation*/
+
+/* page string translation*/
+#edit-string-translation .row{
+    clear: both;
+    padding-bottom: 20px;
+    padding-top:10px;
+    /*display: flex;*/
+}
+#edit-string-translation .col-title{text-align: center}
+#edit-string-translation .col-source{
+    text-align: left;
+    float: left;
+    width : calc(55% - 120px);
+}
+#edit-string-translation .col-action{
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+#edit-string-translation .col-target{
+    float: left;
+    width : calc(55% - 120px);
+}
+#edit-string-translation .col-target textarea,
+#edit-string-translation .col-source textarea
+{
+    width : 100%;
+    max-width: 100%;
+    resize: both;
+}
+#edit-string-translation .col-target input,
+#edit-string-translation .col-source input{
+    width : 100%;
+    max-width: 100%;
+}
+
+#TB_ajaxContent {
+    width: calc(100% - 30px)!important;
+    /*height: 100%!important;*/
+    min-height: 285px;
+    overflow: auto;
+}
+
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url(../img/ui-icons.png);
+    width: 16px;
+    height: 16px;
+}
+
+.ui-icon-gripsmall-diagonal-se {
+    background-position: -64px -224px;
+}
+
+#edit-string-translation .col-target input{
+    width: 90%;
+    clear: both;
+}
+#edit-string-translation span.label{
+    margin-left: 10px;
+    font-size: 0.75em;
+}
+#edit-string-translation .row.action{
+    position: absolute; /* was: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#edit-string-translation .row .action-cancel{
+    background-color: orangered;
+    border-color: orangered;
+    float: left;
+    max-width: 100%;
+    margin-left: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#edit-string-translation .row .action-save{
+    float: right;
+    margin-right: 15px;
+}
+/* fin page string translation*/
+
+/* page option translation*/
+
+#options-translation .serialized-data{
+    font-style: italic;
+}
+
+#edit-option-translation .row{
+    clear: both;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+#edit-option-translation .col-title{text-align: center}
+#edit-option-translation .col-source{
+    text-align: left;
+    float: left;
+    width : calc(55% - 120px);
+}
+#edit-option-translation .col-action{
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+#edit-option-translation .col-target{
+    text-align: left;
+    float: left;
+    width : calc(55% - 120px);
+}
+#edit-option-translation .col-target input.falang,#edit-option-translation .col-source input.falang{
+    width: 100%;
+}
+#edit-option-translation .col-label{
+    width: 75px;
+    float: left;
+}
+#edit-option-translation .row.action{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#edit-option-translation .row .action-cancel{
+    background-color: orangered;
+    border-color: orangered;
+    float: left;
+    max-width: 100%;
+}
+#edit-option-translation .row .action-save{
+    float: right;
+}
+
+/* fin page option translation*/
+
+/* page settings translation*/
+
+form#falang-post-options {margin-bottom: 10px;}
+
+/* fin page settings translation*/
+
+
+/* Tooltips */
+.tips {
+    cursor: help;
+    text-decoration: none;
+}
+img.tips {
+    padding: 5px 0 0 0;
+}
+
+/* TipTip CSS - Version 1.2 */
+#tiptip_holder {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+#tiptip_holder.tip_top {
+    padding-bottom: 5px;
+}
+#tiptip_holder.tip_bottom {
+    padding-top: 5px;
+}
+#tiptip_holder.tip_right {
+    padding-left: 5px;
+}
+#tiptip_holder.tip_left {
+    padding-right: 5px;
+}
+#tiptip_content {
+    font-size: 11px;
+    color: #fff;
+    padding: .5em .8em;
+    background: #a2678c;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+    text-align: center;
+}
+#tiptip_content code {
+    background: #855c76;
+    padding: 1px;
+}
+#tiptip_arrow, #tiptip_arrow_inner {
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 6px;
+    height: 0;
+    width: 0;
+}
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+    margin-top: -7px;
+    margin-left: -6px;
+    border-top-color: #464646;
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    margin-top: -5px;
+    margin-left: -6px;
+    border-bottom-color: #464646;
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+    margin-top: -6px;
+    margin-left: -5px;
+    border-right-color: #464646;
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+    margin-top: -6px;
+    margin-left: -7px;
+    border-left-color: #464646;
+}
+
+/* pages post*/
+.falang_post_status{width: 30px;display: inline-block;font-size: 11px;position: relative}
+.falang_post_status.dashicons:before{position: absolute;right: 0;top:3px;}
+.falang_post_status.dashicons-marker{color: grey}
+.falang_post_status.dashicons-yes-alt{color: green}
+
+#select-post-locale,
+#meta-post-translations,
+#meta-select-association{margin-bottom:8px}
+
+.falang_language_link{text-decoration: none;margin-left: 5px}
+select.falang-association{min-width: 140px;margin-bottom:5px}
+
+/* page listing post , products...*/
+.fixed .column-translation{width: 8%;}
+.fixed .column-locale{width: 8%;}
+.fixed .column-id{width: 70px;}
+
+/* Notice message box*/
+div.falang-notice{
+    position: relative;
+}
+.falang-message-close{
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0;
+    padding: 0 15px 10px 28px;
+    margin-top: -10px;
+    font-size: 13px;
+    line-height: 1.23076923;
+    text-decoration: none;
+}
+
+a.falang-message-close:before{
+    position: relative;
+    top: 18px;
+    left: -20px;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+div.falang-notice .falang-logo,div.falang-notice.falang-review-notice .falang-logo {
+    background-image: url('../img/icon-80x80.png');
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    border-radius: 4px;
+    margin-right: 16px;
+    -webkit-box-flex: 0;
+    flex: 0 0 80px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+div.falang-notice,div.falang-notice.falang-review-notice {
+    padding: 16px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+div.falang-notice h3{
+    margin: 0;
+    font-size: 14px;
+}
+
+div.falang-notice .falang-message__action a {
+    height: auto;
+    padding: 3px 15px;
+    margin-right: 10px;
+    line-height: 26px;
+}
+div.falang-notice .falang-message__action a .dashicons {
+    line-height: 1.2;
+    padding-right: 5px;
+}
+
+div.falang-notice .falang-message-content p.submit {
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+/* language edit selector drowpdown */
+.img-flag {
+    width: 16px;
+    height: 11px;
+}
+
+/* languages flags column */
+#the-list .flag img {
+    width: 16px;
+    height: 11px;
+}
+
+/* falang post status window etc. */
+.img-flag,
+#the-list .flag img,
+.falang_post_status img,
+.manage-column img {
+    width: 16px;
+    height: 11px;
+}
+
+/* language flag preview when empty */
+#image-preview-placeholder{
+    width:32px;
+    height:22px;
+    background-image: url('../img/flag-placeholder-32x22.png');
+    display:inline-block;
+    text-align: center;
+    margin-right:5px;
+}
+#image-preview-placeholder.toggle {
+    background-image: none;
+}
+
+.image-preview-wrapper img{
+    background: #cecece;
+    border: 1px solid blue;
+}
+
+
+/* end TEST new size flag images backend */
+
+/* notices for extra plugin*/
+.falang-notice::before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: -1px;
+    bottom: -1px;
+    width: 4px;
+    background-color: #0a4b78;
+}
+
+.falang-notice {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Roboto,Arial,Helvetica,Verdana,sans-serif;
+    border: 1px solid #0a4b78;
+    border-inline-start-width: 4px;
+    margin: 5px 20px 5px 2px;
+}
+
+.falang-notice__dismiss::before {
+    font-family: 'dashicons';
+    display: inline-block;
+    vertical-align: bottom;
+    content: "\f153";
+    color: #0a4b78;
+    width: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    speak: none;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.falang-notice__dismiss {
+    height: 20px;
+    line-height: 20px;
+    font-size: .8125rem;
+    text-align: center;
+    background: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.falang-notice p + .falang-notice__actions {
+    margin-top: 1rem;
+}
+
+.falang-notice__aside {
+    overflow: hidden;
+    width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.falang-notice__icon-wrapper{
+    margin-right: 16px;
+    -webkit-box-flex: 0;
+    flex: 0 0 80px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.flang-notice__icon-wrapper {
+    display: inline-block;
+    font-size: .625rem;
+    max-height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    background: #93003c;
+    color: #fff;
+}
+
+.falang-notice__icon-wrapper i{
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+}
+
+.falang-notice__icon-wrapper i.icon-falang {
+    background-image: url('../img/icon-80x80.png');
+}
+
+.falang-button.falang-button--cta {
+    border-color:red;
+    background-color: red;
+    color: #fff;
+}
+
+.falang-button.falang-button--info {
+    border-color:#2271b1;
+    background-color: #2271b1;
+    color: #fff;
+}
+
+.falang-notice__actions > a:not(:first-child) {
+    -webkit-margin-start: 8px;
+    margin-inline-start: 8px;
+}
+
+.falang-notice__actions > a i {
+    line-height: 1.2;
+    padding-right: 5px;
+}
+
+.falang-notice__icon-wrapper i.icon-falang-for-yootheme {
+    background-image: url('../img/icon-yootheme-80x80.png');
+}
+
+.falang-notice__icon-wrapper i.icon-falang-for-elementor {
+    background-image: url('../img/icon-elementor-80x80.png');
+}
+.falang-notice__icon-wrapper i.icon-falang-for-divi {
+    background-image: url('../img/icon-divi-80x80.png');
+}
+.falang-notice__icon-wrapper i.icon-falang-for-wpbakery {
+    background-image: url('../img/icon-wpbakery-80x80.png');
+}
+.falang-notice__icon-wrapper i.icon-falang-for-qimporter {
+    background-image: url('../img/icon-wpbakery-80x80.png');
+}
+
+
+/* end notices for extra plugin*/
+
+/* Falang free msg*/
+.falang_free_msgr{
+    clear: both;
+    text-align: center;
+    padding: 8px 0 20px 0;
+    margin: 18px 0;
+    text-shadow: none;
+    background-color: #fcf8e3;
+    border: 1px solid #faebcc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #8a6d3b;
+}
+a.btn-free-msg {
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #fff;
+    background-color: #bd362f;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+}
+a.btn-free-msg:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+a.btn-free-msg i {
+    margin-right:10px;
+}
+
+.falang-notice--error::before{
+    background-color: #d63638;
+}
+.falang-notice--error{
+    border: 1px solid #c3c4c7;
+}

@@ -1,0 +1,35 @@
+/**
+ * Falang public css
+ */
+ul.falang-language-switcher{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.falang-language-switcher.lang-h li{
+    display: inline-block;
+}
+ul.falang-language-switcher.lang-v li{
+    display: block;
+}
+
+ul.falang-language-switcher li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    word-wrap: break-word;
+}
+
+ul.falang-language-switcher li a{
+    text-decoration: none;
+}
+
+ul.falang-language-switcher li img{
+    border: none;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0 5px 0 0;
+}

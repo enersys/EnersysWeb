@@ -1,0 +1,1834 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Falang\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 08:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: admin/class-falang-admin.php:240
+msgid "Translate Posts"
+msgstr ""
+
+#: admin/class-falang-admin.php:241
+msgid "Translate Terms/Taxo"
+msgstr ""
+
+#: admin/class-falang-admin.php:242
+msgid "Translate Menus"
+msgstr ""
+
+#: admin/class-falang-admin.php:243
+msgid "Translate Strings"
+msgstr ""
+
+#: admin/class-falang-admin.php:244 admin/views/settings_page.php:63
+msgid "Translate Options"
+msgstr ""
+
+#: admin/class-falang-admin.php:248 includes/class-falang.php:270
+#: src/Falang/Filter/Admin/Classic_Editor.php:31
+#: src/Falang/Filter/Admin/Nav_Menu.php:58
+#: src/Falang/Filter/Admin/Nav_Menu.php:61
+#: src/Falang/Filter/Admin/Nav_Menu.php:91
+#: src/Falang/Filter/Admin/Nav_Menu.php:159
+msgid "Languages"
+msgstr ""
+
+#: admin/class-falang-admin.php:249
+msgid "Settings"
+msgstr ""
+
+#: admin/class-falang-admin.php:250
+msgid "Get Help"
+msgstr ""
+
+#: admin/class-falang-admin.php:259
+msgid "Falang"
+msgstr ""
+
+#: admin/class-falang-admin.php:560
+msgid "Post translation deleted"
+msgstr ""
+
+#: admin/class-falang-admin.php:562
+msgid "Post translation not deleted"
+msgstr ""
+
+#: admin/class-falang-admin.php:664
+msgid "Menu translation deleted"
+msgstr ""
+
+#: admin/class-falang-admin.php:666
+msgid "Menu translation not deleted"
+msgstr ""
+
+#: admin/class-falang-admin.php:1151
+msgid "Translations updated"
+msgstr ""
+
+#: admin/class-falang-admin.php:1291
+msgid "Term translation deleted"
+msgstr ""
+
+#: admin/class-falang-admin.php:1293
+msgid "Term translation not deleted"
+msgstr ""
+
+#: admin/class-falang-admin.php:1407
+msgid "String translation deleted"
+msgstr ""
+
+#: admin/class-falang-admin.php:1409
+msgid "String translation not deleted"
+msgstr ""
+
+#: admin/class-falang-admin.php:1851 includes/class-falang.php:272
+#: includes/class-falang.php:398 src/Falang/Table/Post.php:85
+msgid "All languages"
+msgstr ""
+
+#: admin/class-falang-admin.php:1865
+msgid "The widget is displayed for:"
+msgstr ""
+
+#: admin/class-falang-admin.php:1921
+msgid "View Falang documentation"
+msgstr ""
+
+#: admin/class-falang-admin.php:1921
+msgid "Docs & FAQs"
+msgstr ""
+
+#: includes/class-falang-activator.php:43
+msgid "Falang cannot be installed on a multisite system"
+msgstr ""
+
+#: includes/class-falang-activator.php:53
+msgid "Falang cannot be installed with Polylang on the same site"
+msgstr ""
+
+#. %1$s and %2$s are WordPress version numbers
+#: includes/class-falang-activator.php:65
+#, php-format
+msgid "You are using WordPress %1$s. Falang requires at least WordPress %2$s."
+msgstr ""
+
+#: includes/class-falang-activator.php:77
+msgid ""
+"Falang cannot be installed now, because Polylang has not been completely "
+"removed. Falang and Polylang use the languages in taxonomies and cannot "
+"exist together on the same installation. See the Polylang documentation to "
+"remove it completely <a href=\"https://polylang.pro/doc/how-to-uninstall-"
+"polylang/\" target=\"blank\">here</a>. After that, you can install Falang "
+"again."
+msgstr ""
+
+#: includes/class-falang-activator.php:147
+msgid "Impossible to init default en_US language"
+msgstr ""
+
+#: includes/class-falang.php:271
+msgid "Language"
+msgstr ""
+
+#: includes/class-falang.php:353 admin/views/language_edit_page.php:119
+msgid "Locale"
+msgstr ""
+
+#: includes/class-falang.php:360 admin/views/terms-edit-form.php:17
+#: admin/views/view-translations-media.php:9
+#: admin/views/view-translations-post.php:9
+#: src/Falang/Filter/Admin/Filters_WC_Columns.php:62
+msgid "Translations"
+msgstr ""
+
+#: includes/flags.php:15
+msgid "Andorra"
+msgstr ""
+
+#: includes/flags.php:16
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/flags.php:17
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/flags.php:18
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/flags.php:19
+msgid "Anguilla"
+msgstr ""
+
+#: includes/flags.php:20
+msgid "Albania"
+msgstr ""
+
+#: includes/flags.php:21
+msgid "Armenia"
+msgstr ""
+
+#: includes/flags.php:22
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: includes/flags.php:23
+msgid "Angola"
+msgstr ""
+
+#: includes/flags.php:24
+msgid "Argentina"
+msgstr ""
+
+#: includes/flags.php:25
+msgid "Arab league"
+msgstr ""
+
+#: includes/flags.php:26
+msgid "American Samoa"
+msgstr ""
+
+#: includes/flags.php:27
+msgid "Austria"
+msgstr ""
+
+#: includes/flags.php:28
+msgid "Australia"
+msgstr ""
+
+#: includes/flags.php:29
+msgid "Aruba"
+msgstr ""
+
+#: includes/flags.php:30
+msgid "Åland Islands"
+msgstr ""
+
+#: includes/flags.php:31
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/flags.php:32
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/flags.php:33
+msgid "Basque Country"
+msgstr ""
+
+#: includes/flags.php:34
+msgid "Barbados"
+msgstr ""
+
+#: includes/flags.php:35
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/flags.php:36
+msgid "Belgium"
+msgstr ""
+
+#: includes/flags.php:37
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/flags.php:38
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/flags.php:39
+msgid "Bahrain"
+msgstr ""
+
+#: includes/flags.php:40
+msgid "Burundi"
+msgstr ""
+
+#: includes/flags.php:41
+msgid "Benin"
+msgstr ""
+
+#: includes/flags.php:42
+msgid "Bermuda"
+msgstr ""
+
+#: includes/flags.php:43
+msgid "Brunei"
+msgstr ""
+
+#: includes/flags.php:44
+msgid "Bolivia"
+msgstr ""
+
+#: includes/flags.php:45
+msgid "Brazil"
+msgstr ""
+
+#: includes/flags.php:46
+msgid "Bahamas"
+msgstr ""
+
+#: includes/flags.php:47
+msgid "Bhutan"
+msgstr ""
+
+#: includes/flags.php:48
+msgid "Botswana"
+msgstr ""
+
+#: includes/flags.php:49
+msgid "Belarus"
+msgstr ""
+
+#: includes/flags.php:50
+msgid "Belize"
+msgstr ""
+
+#: includes/flags.php:51
+msgid "Canada"
+msgstr ""
+
+#: includes/flags.php:52
+msgid "Catalonia"
+msgstr ""
+
+#: includes/flags.php:53
+msgid "Cocos"
+msgstr ""
+
+#: includes/flags.php:54
+msgid "Democratic Republic of the Congo"
+msgstr ""
+
+#: includes/flags.php:55
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/flags.php:56
+msgid "Congo"
+msgstr ""
+
+#: includes/flags.php:57
+msgid "Switzerland"
+msgstr ""
+
+#: includes/flags.php:58
+msgid "Ivory Coast"
+msgstr ""
+
+#: includes/flags.php:59
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/flags.php:60
+msgid "Chile"
+msgstr ""
+
+#: includes/flags.php:61
+msgid "Cameroon"
+msgstr ""
+
+#: includes/flags.php:62
+msgid "China"
+msgstr ""
+
+#: includes/flags.php:63
+msgid "Colombia"
+msgstr ""
+
+#: includes/flags.php:64
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/flags.php:65
+msgid "Cuba"
+msgstr ""
+
+#: includes/flags.php:66
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/flags.php:67
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/flags.php:68
+msgid "Cyprus"
+msgstr ""
+
+#: includes/flags.php:69
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/flags.php:70
+msgid "Germany"
+msgstr ""
+
+#: includes/flags.php:71
+msgid "Djibouti"
+msgstr ""
+
+#: includes/flags.php:72
+msgid "Denmark"
+msgstr ""
+
+#: includes/flags.php:73
+msgid "Dominica"
+msgstr ""
+
+#: includes/flags.php:74
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/flags.php:75
+msgid "Algeria"
+msgstr ""
+
+#: includes/flags.php:76
+msgid "Ecuador"
+msgstr ""
+
+#: includes/flags.php:77
+msgid "Estonia"
+msgstr ""
+
+#: includes/flags.php:78
+msgid "Egypt"
+msgstr ""
+
+#: includes/flags.php:79
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/flags.php:80
+msgid "England"
+msgstr ""
+
+#: includes/flags.php:81
+msgid "Eritrea"
+msgstr ""
+
+#: includes/flags.php:82
+msgid "Spain"
+msgstr ""
+
+#: includes/flags.php:83
+msgid "Esperanto"
+msgstr ""
+
+#: includes/flags.php:84
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/flags.php:85
+msgid "Finland"
+msgstr ""
+
+#: includes/flags.php:86
+msgid "Fiji"
+msgstr ""
+
+#: includes/flags.php:87
+msgid "Falkland Islands"
+msgstr ""
+
+#: includes/flags.php:88
+msgid "Micronesia"
+msgstr ""
+
+#: includes/flags.php:89
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/flags.php:90
+msgid "France"
+msgstr ""
+
+#: includes/flags.php:91
+msgid "Gabon"
+msgstr ""
+
+#: includes/flags.php:92
+msgid "Galicia"
+msgstr ""
+
+#: includes/flags.php:93
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/flags.php:94
+msgid "Grenada"
+msgstr ""
+
+#: includes/flags.php:95
+msgid "Georgia"
+msgstr ""
+
+#: includes/flags.php:96
+msgid "Ghana"
+msgstr ""
+
+#: includes/flags.php:97
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/flags.php:98
+msgid "Greenland"
+msgstr ""
+
+#: includes/flags.php:99
+msgid "Gambia"
+msgstr ""
+
+#: includes/flags.php:100
+msgid "Guinea"
+msgstr ""
+
+#: includes/flags.php:101
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/flags.php:102
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/flags.php:103
+msgid "Greece"
+msgstr ""
+
+#: includes/flags.php:104
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: includes/flags.php:105
+msgid "Guatemala"
+msgstr ""
+
+#: includes/flags.php:106
+msgid "Guam"
+msgstr ""
+
+#: includes/flags.php:107
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/flags.php:108
+msgid "Guyana"
+msgstr ""
+
+#: includes/flags.php:109
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/flags.php:110
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: includes/flags.php:111
+msgid "Honduras"
+msgstr ""
+
+#: includes/flags.php:112
+msgid "Croatia"
+msgstr ""
+
+#: includes/flags.php:113
+msgid "Haiti"
+msgstr ""
+
+#: includes/flags.php:114
+msgid "Hungary"
+msgstr ""
+
+#: includes/flags.php:115
+msgid "Indonesia"
+msgstr ""
+
+#: includes/flags.php:116
+msgid "Republic of Ireland"
+msgstr ""
+
+#: includes/flags.php:117
+msgid "Israel"
+msgstr ""
+
+#: includes/flags.php:118
+msgid "India"
+msgstr ""
+
+#: includes/flags.php:119
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/flags.php:120
+msgid "Iraq"
+msgstr ""
+
+#: includes/flags.php:121
+msgid "Iran"
+msgstr ""
+
+#: includes/flags.php:122
+msgid "Iceland"
+msgstr ""
+
+#: includes/flags.php:123
+msgid "Italy"
+msgstr ""
+
+#: includes/flags.php:124
+msgid "Jamaica"
+msgstr ""
+
+#: includes/flags.php:125
+msgid "Jordan"
+msgstr ""
+
+#: includes/flags.php:126
+msgid "Japan"
+msgstr ""
+
+#: includes/flags.php:127
+msgid "Kenya"
+msgstr ""
+
+#: includes/flags.php:128
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/flags.php:129
+msgid "Cambodia"
+msgstr ""
+
+#: includes/flags.php:130
+msgid "Kiribati"
+msgstr ""
+
+#: includes/flags.php:131
+msgid "Comoros"
+msgstr ""
+
+#: includes/flags.php:132
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/flags.php:133
+msgid "North Korea"
+msgstr ""
+
+#: includes/flags.php:134
+msgid "South Korea"
+msgstr ""
+
+#: includes/flags.php:135
+msgid "Kurdistan"
+msgstr ""
+
+#: includes/flags.php:136
+msgid "Kuwait"
+msgstr ""
+
+#: includes/flags.php:137
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/flags.php:138
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/flags.php:139
+msgid "Laos"
+msgstr ""
+
+#: includes/flags.php:140
+msgid "Lebanon"
+msgstr ""
+
+#: includes/flags.php:141
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/flags.php:142
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/flags.php:143
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/flags.php:144
+msgid "Liberia"
+msgstr ""
+
+#: includes/flags.php:145
+msgid "Lesotho"
+msgstr ""
+
+#: includes/flags.php:146
+msgid "Lithuania"
+msgstr ""
+
+#: includes/flags.php:147
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/flags.php:148
+msgid "Latvia"
+msgstr ""
+
+#: includes/flags.php:149
+msgid "Libya"
+msgstr ""
+
+#: includes/flags.php:150
+msgid "Morocco"
+msgstr ""
+
+#: includes/flags.php:151
+msgid "Monaco"
+msgstr ""
+
+#: includes/flags.php:152
+msgid "Moldova"
+msgstr ""
+
+#: includes/flags.php:153
+msgid "Montenegro"
+msgstr ""
+
+#: includes/flags.php:154
+msgid "Madagascar"
+msgstr ""
+
+#: includes/flags.php:155
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/flags.php:156
+msgid "Macedonia"
+msgstr ""
+
+#: includes/flags.php:157
+msgid "Mali"
+msgstr ""
+
+#: includes/flags.php:158
+msgid "Myanmar"
+msgstr ""
+
+#: includes/flags.php:159
+msgid "Mongolia"
+msgstr ""
+
+#: includes/flags.php:160
+msgid "Macao"
+msgstr ""
+
+#: includes/flags.php:161
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/flags.php:162
+msgid "Martinique"
+msgstr ""
+
+#: includes/flags.php:163
+msgid "Mauritania"
+msgstr ""
+
+#: includes/flags.php:164
+msgid "Montserrat"
+msgstr ""
+
+#: includes/flags.php:165
+msgid "Malta"
+msgstr ""
+
+#: includes/flags.php:166
+msgid "Mauritius"
+msgstr ""
+
+#: includes/flags.php:167
+msgid "Maldives"
+msgstr ""
+
+#: includes/flags.php:168
+msgid "Malawi"
+msgstr ""
+
+#: includes/flags.php:169
+msgid "Mexico"
+msgstr ""
+
+#: includes/flags.php:170
+msgid "Malaysia"
+msgstr ""
+
+#: includes/flags.php:171
+msgid "Mozambique"
+msgstr ""
+
+#: includes/flags.php:172
+msgid "Namibia"
+msgstr ""
+
+#: includes/flags.php:173
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/flags.php:174
+msgid "Niger"
+msgstr ""
+
+#: includes/flags.php:175
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/flags.php:176
+msgid "Nigeria"
+msgstr ""
+
+#: includes/flags.php:177
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/flags.php:178
+msgid "Netherlands"
+msgstr ""
+
+#: includes/flags.php:179
+msgid "Norway"
+msgstr ""
+
+#: includes/flags.php:180
+msgid "Nepal"
+msgstr ""
+
+#: includes/flags.php:181
+msgid "Nauru"
+msgstr ""
+
+#: includes/flags.php:182
+msgid "Niue"
+msgstr ""
+
+#: includes/flags.php:183
+msgid "New Zealand"
+msgstr ""
+
+#: includes/flags.php:184
+msgid "Occitania"
+msgstr ""
+
+#: includes/flags.php:185
+msgid "Oman"
+msgstr ""
+
+#: includes/flags.php:186
+msgid "Panama"
+msgstr ""
+
+#: includes/flags.php:187
+msgid "Peru"
+msgstr ""
+
+#: includes/flags.php:188
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/flags.php:189
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/flags.php:190
+msgid "Philippines"
+msgstr ""
+
+#: includes/flags.php:191
+msgid "Pakistan"
+msgstr ""
+
+#: includes/flags.php:192
+msgid "Poland"
+msgstr ""
+
+#: includes/flags.php:193
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/flags.php:194
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/flags.php:195
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/flags.php:196
+msgid "Palestinian Territory"
+msgstr ""
+
+#: includes/flags.php:197
+msgid "Portugal"
+msgstr ""
+
+#: includes/flags.php:198
+msgid "Belau"
+msgstr ""
+
+#: includes/flags.php:199
+msgid "Paraguay"
+msgstr ""
+
+#: includes/flags.php:200
+msgid "Qatar"
+msgstr ""
+
+#: includes/flags.php:201
+msgid "Quebec"
+msgstr ""
+
+#: includes/flags.php:202
+msgid "Romania"
+msgstr ""
+
+#: includes/flags.php:203
+msgid "Serbia"
+msgstr ""
+
+#: includes/flags.php:204
+msgid "Russia"
+msgstr ""
+
+#: includes/flags.php:205
+msgid "Rwanda"
+msgstr ""
+
+#: includes/flags.php:206
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/flags.php:207
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/flags.php:208
+msgid "Seychelles"
+msgstr ""
+
+#: includes/flags.php:209
+msgid "Scotland"
+msgstr ""
+
+#: includes/flags.php:210
+msgid "Sudan"
+msgstr ""
+
+#: includes/flags.php:211
+msgid "Sweden"
+msgstr ""
+
+#: includes/flags.php:212
+msgid "Singapore"
+msgstr ""
+
+#: includes/flags.php:213
+msgid "Saint Helena"
+msgstr ""
+
+#: includes/flags.php:214
+msgid "Slovenia"
+msgstr ""
+
+#: includes/flags.php:215
+msgid "Slovakia"
+msgstr ""
+
+#: includes/flags.php:216
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/flags.php:217
+msgid "San Marino"
+msgstr ""
+
+#: includes/flags.php:218
+msgid "Senegal"
+msgstr ""
+
+#: includes/flags.php:219
+msgid "Somalia"
+msgstr ""
+
+#: includes/flags.php:220
+msgid "Suriname"
+msgstr ""
+
+#: includes/flags.php:221
+msgid "South Sudan"
+msgstr ""
+
+#: includes/flags.php:222
+msgid "São Tomé and Príncipe"
+msgstr ""
+
+#: includes/flags.php:223
+msgid "El Salvador"
+msgstr ""
+
+#: includes/flags.php:224
+msgid "Syria"
+msgstr ""
+
+#: includes/flags.php:225
+msgid "Swaziland"
+msgstr ""
+
+#: includes/flags.php:226
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/flags.php:227
+msgid "Chad"
+msgstr ""
+
+#: includes/flags.php:228
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/flags.php:229
+msgid "Togo"
+msgstr ""
+
+#: includes/flags.php:230
+msgid "Thailand"
+msgstr ""
+
+#: includes/flags.php:231
+msgid "Tibet"
+msgstr ""
+
+#: includes/flags.php:232
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/flags.php:233
+msgid "Tokelau"
+msgstr ""
+
+#: includes/flags.php:234
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/flags.php:235
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/flags.php:236
+msgid "Tunisia"
+msgstr ""
+
+#: includes/flags.php:237
+msgid "Tonga"
+msgstr ""
+
+#: includes/flags.php:238
+msgid "Turkey"
+msgstr ""
+
+#: includes/flags.php:239
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/flags.php:240
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/flags.php:241
+msgid "Taiwan"
+msgstr ""
+
+#: includes/flags.php:242
+msgid "Tanzania"
+msgstr ""
+
+#: includes/flags.php:243
+msgid "Ukraine"
+msgstr ""
+
+#: includes/flags.php:244
+msgid "Uganda"
+msgstr ""
+
+#: includes/flags.php:245
+msgid "United States"
+msgstr ""
+
+#: includes/flags.php:246
+msgid "Uruguay"
+msgstr ""
+
+#: includes/flags.php:247
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/flags.php:248
+msgid "Vatican"
+msgstr ""
+
+#: includes/flags.php:249
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/flags.php:250
+msgid "Venezuela"
+msgstr ""
+
+#: includes/flags.php:251
+msgid "Veneto"
+msgstr ""
+
+#: includes/flags.php:252
+msgid "British Virgin Islands"
+msgstr ""
+
+#: includes/flags.php:253
+msgid "United States Virgin Islands"
+msgstr ""
+
+#: includes/flags.php:254
+msgid "Vietnam"
+msgstr ""
+
+#: includes/flags.php:255
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/flags.php:256
+msgid "Wales"
+msgstr ""
+
+#: includes/flags.php:257
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/flags.php:258
+msgid "Western Samoa"
+msgstr ""
+
+#: includes/flags.php:259
+msgid "Yemen"
+msgstr ""
+
+#: includes/flags.php:260
+msgid "Mayotte"
+msgstr ""
+
+#: includes/flags.php:261
+msgid "South Africa"
+msgstr ""
+
+#: includes/flags.php:262
+msgid "Zambia"
+msgstr ""
+
+#: includes/flags.php:263
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/widgets-language.php:27 src/Falang/Filter/Admin/Nav_Menu.php:160
+msgid "Falang Language Switcher"
+msgstr ""
+
+#: includes/widgets-language.php:29
+msgid "Displays a language switcher"
+msgstr ""
+
+#: includes/widgets-language.php:93 src/Falang/Table/Menu.php:100
+msgid "Title"
+msgstr ""
+
+#: includes/widgets-language.php:99
+msgid "Display as"
+msgstr ""
+
+#: includes/widgets-language.php:101
+msgid "List (vertical or horizontal)"
+msgstr ""
+
+#: includes/widgets-language.php:108
+msgid "Positioning"
+msgstr ""
+
+#: includes/widgets-language.php:110
+msgid "Horizontally"
+msgstr ""
+
+#: includes/widgets-language.php:111
+msgid "Vertically"
+msgstr ""
+
+#: includes/widgets-language.php:119
+msgid "Display Language Names"
+msgstr ""
+
+#: includes/widgets-language.php:126
+msgid "Display Flags"
+msgstr ""
+
+#: includes/widgets-language.php:133 src/Falang/Core/Language_Switcher.php:43
+msgid "Hides the current language"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:73
+msgid "Translations Menu"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:80 admin/views/edit_menu_page.php:150
+#: admin/views/edit_post_page.php:36 admin/views/edit_post_page.php:129
+#: admin/views/falang_option_translation_page.php:388
+#: admin/views/falang_string_translation_page.php:174
+#: admin/views/falang_term_translation_page.php:165
+#: admin/views/language_edit_page.php:217
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:82 admin/views/edit_menu_page.php:152
+#: admin/views/edit_post_page.php:38 admin/views/edit_post_page.php:131
+#: admin/views/falang_option_translation_page.php:389
+#: admin/views/falang_string_translation_page.php:175
+#: admin/views/falang_term_translation_page.php:166
+msgid "Save"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:85 admin/views/edit_post_page.php:42
+#: admin/views/falang_term_translation_page.php:109
+msgid "Published"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:91 admin/views/edit_post_page.php:52
+#: admin/views/falang_option_translation_page.php:344
+#: admin/views/falang_string_translation_page.php:134
+#: admin/views/falang_term_translation_page.php:120
+msgid "Source"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:97 admin/views/edit_post_page.php:58
+#: admin/views/falang_option_translation_page.php:350
+#: admin/views/falang_string_translation_page.php:140
+#: admin/views/falang_term_translation_page.php:126
+msgid "Target"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:115 admin/views/edit_post_page.php:83
+#: admin/views/edit_post_page.php:112
+#: admin/views/falang_option_translation_page.php:369
+#: admin/views/falang_string_translation_page.php:159
+#: admin/views/falang_term_translation_page.php:149
+msgid "Copy"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:118 admin/views/edit_post_page.php:86
+#: admin/views/edit_post_page.php:115
+#: admin/views/falang_option_translation_page.php:372
+#: admin/views/falang_string_translation_page.php:162
+#: admin/views/falang_term_translation_page.php:152
+msgid "Copy with Yandex"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:128
+msgid "Parameters"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:132
+msgid "Page Title"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:132 admin/views/edit_menu_page.php:134
+msgid "edit"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:134 admin/views/terms-edit-form.php:40
+msgid "Term Name"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:136
+msgid "URL"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:138
+msgid "Title Attribute"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:139
+#: admin/views/settings_taxonomy_option_page.php:128
+msgid "Description"
+msgstr ""
+
+#: admin/views/edit_menu_page.php:141
+msgid "Classes"
+msgstr ""
+
+#: admin/views/edit_post_page.php:32
+msgid "Translations Post"
+msgstr ""
+
+#: admin/views/edit_post_page.php:47
+msgid "Show Reference"
+msgstr ""
+
+#: admin/views/edit_post_page.php:47
+msgid "Hide Reference"
+msgstr ""
+
+#: admin/views/edit_post_page.php:115
+#: admin/views/settings_tab_general_settings.php:42
+msgid "Yandex"
+msgstr ""
+
+#: admin/views/falang_debug_display_page.php:32
+msgid "Key"
+msgstr ""
+
+#: admin/views/falang_debug_display_page.php:33
+msgid "Value"
+msgstr ""
+
+#: admin/views/falang_debug_display_page.php:43
+msgid "Serialized data"
+msgstr ""
+
+#: admin/views/falang_option_translation_page.php:46
+#: src/Falang/Table/FOptions.php:200
+msgid "Options translation"
+msgstr ""
+
+#: admin/views/falang_option_translation_page.php:325
+#: admin/views/falang_string_translation_page.php:122
+msgid "Target language: "
+msgstr ""
+
+#: admin/views/falang_string_translation_page.php:39
+msgid "Strings translations"
+msgstr ""
+
+#: admin/views/falang_string_translation_page.php:120
+msgid "Translatable String"
+msgstr ""
+
+#: admin/views/falang_term_translation_page.php:22
+msgid "Term translation page"
+msgstr ""
+
+#: admin/views/falang_term_translation_page.php:106
+msgid ""
+"Term is not enabled for translation in the Falang settings, translation will "
+"not be visible in front-end"
+msgstr ""
+
+#: admin/views/html-notice-first-activation.php:14
+#: admin/views/html-notice-review.php:14
+msgid "Dismiss"
+msgstr ""
+
+#: admin/views/html-notice-first-activation.php:19
+msgid "Thanks for using Falang"
+msgstr ""
+
+#. %1$s: Plugin Name, %2$s: Rating link
+#: admin/views/html-notice-first-activation.php:23
+#: admin/views/html-notice-review.php:23
+#, php-format
+msgid ""
+"Enjoying the experience with %1$s? Please take a moment to spread your love "
+"by rating us on %2$s"
+msgstr ""
+
+#: admin/views/html-notice-first-activation.php:27
+msgid "Documentation"
+msgstr ""
+
+#: admin/views/html-notice-first-activation.php:28
+msgid "Do you have question?"
+msgstr ""
+
+#: admin/views/html-notice-review.php:19
+msgid "Please help us spread the word"
+msgstr ""
+
+#: admin/views/html-notice-review.php:27
+msgid "Sure, I'd love to!"
+msgstr ""
+
+#: admin/views/html-notice-review.php:28
+msgid "Remind me later"
+msgstr ""
+
+#: admin/views/html-notice-review.php:29
+msgid "I already did"
+msgstr ""
+
+#: admin/views/language_edit_page.php:64 src/Falang/Table/Languages.php:65
+msgid "Edit this language"
+msgstr ""
+
+#: admin/views/language_edit_page.php:66 admin/views/language_edit_page.php:216
+#: admin/views/language_page.php:29
+msgid "Add New Language"
+msgstr ""
+
+#: admin/views/language_edit_page.php:72
+msgid "Don't change slug and language code, it's not yet supported!"
+msgstr ""
+
+#: admin/views/language_edit_page.php:81
+msgid "Choose a language"
+msgstr ""
+
+#: admin/views/language_edit_page.php:100
+msgid "You can choose a language in the list or directly edit it below."
+msgstr ""
+
+#: admin/views/language_edit_page.php:105
+msgid "Full name"
+msgstr ""
+
+#: admin/views/language_edit_page.php:114
+msgid ""
+"The name decides how it is displayed on your site (for example: English)"
+msgstr ""
+
+#: admin/views/language_edit_page.php:129
+msgid ""
+"WordPress Locale for the language (for example: en_US). The .mo file will be "
+"installed automatically for this language."
+msgstr ""
+
+#: admin/views/language_edit_page.php:134
+msgid "SEF language code"
+msgstr ""
+
+#: admin/views/language_edit_page.php:143
+msgid "Language code - preferably 2-letters ISO 639-1  (for example: en)"
+msgstr ""
+
+#: admin/views/language_edit_page.php:148
+msgid "Text direction"
+msgstr ""
+
+#: admin/views/language_edit_page.php:154
+msgid "Left to Right"
+msgstr ""
+
+#: admin/views/language_edit_page.php:159
+msgid "Right to Left"
+msgstr ""
+
+#: admin/views/language_edit_page.php:164
+msgid "Choose the text direction for the language"
+msgstr ""
+
+#: admin/views/language_edit_page.php:170 src/Falang/Table/Languages.php:177
+msgid "Flag"
+msgstr ""
+
+#: admin/views/language_edit_page.php:186
+msgid "Choose a flag for the language"
+msgstr ""
+
+#: admin/views/language_edit_page.php:219
+msgid "Delete Language"
+msgstr ""
+
+#: admin/views/menus_page.php:19 admin/views/options_page.php:23
+#: admin/views/strings_page.php:23 admin/views/terms_page.php:22
+#: admin/views/translation_page.php:21
+msgid "Search"
+msgstr ""
+
+#: admin/views/settings_page.php:56
+msgid "Settings page"
+msgstr ""
+
+#: admin/views/settings_page.php:62
+msgid "General Settings"
+msgstr ""
+
+#: admin/views/settings_page.php:64
+msgid "Information"
+msgstr ""
+
+#: admin/views/settings_page.php:83
+msgid "Update Settings"
+msgstr ""
+
+#: admin/views/settings_post_option_page.php:8
+msgid "Post Options page"
+msgstr ""
+
+#: admin/views/settings_post_option_page.php:69
+#, php-format
+msgid "%s Translate Options"
+msgstr ""
+
+#: admin/views/settings_post_option_page.php:78
+msgid "Post Type Permalink Base"
+msgstr ""
+
+#: admin/views/settings_post_option_page.php:99
+msgid "Post Type Archive Link"
+msgstr ""
+
+#: admin/views/settings_post_option_page.php:121
+msgid "Translatable Post fields"
+msgstr ""
+
+#: admin/views/settings_post_option_page.php:132
+msgid "Translatable Post meta"
+msgstr ""
+
+#: admin/views/settings_post_option_page.php:145
+msgid "Save language data in revisions"
+msgstr ""
+
+#: admin/views/settings_post_option_page.php:150
+#: admin/views/settings_taxonomy_option_page.php:146
+msgid "Save options"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:4
+msgid "Version"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:12
+#: admin/views/settings_tab_general_settings.php:16
+msgid "Show slug for main language"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:21
+msgid "Auto-detect language"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:25
+msgid "Auto-detect language when language is not specified in url"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:30
+msgid "Translation Service"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:34
+msgid "Enable Translation Service"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:39
+msgid "Service name"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:45
+msgid "Select Translation Service"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:49
+msgid "Yandex API Key"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:69
+msgid "Debug admin"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:73
+msgid "View debug info in admin section"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:79
+msgid "Delete Translations on uninstall"
+msgstr ""
+
+#: admin/views/settings_tab_general_settings.php:83
+msgid "Delete all translations when Falang is uninstalled"
+msgstr ""
+
+#: admin/views/settings_tab_translate_options.php:8
+msgid "Translate Post Types"
+msgstr ""
+
+#: admin/views/settings_tab_translate_options.php:25
+#: admin/views/settings_tab_translate_options.php:27
+msgid "Options"
+msgstr ""
+
+#: admin/views/settings_tab_translate_options.php:37
+msgid "Translate Taxonomies"
+msgstr ""
+
+#: admin/views/settings_taxonomy_option_page.php:8
+msgid "Taxonomy options page"
+msgstr ""
+
+#: admin/views/settings_taxonomy_option_page.php:90
+#, php-format
+msgid "%s Language Options"
+msgstr ""
+
+#: admin/views/settings_taxonomy_option_page.php:95
+msgid "Terms link"
+msgstr ""
+
+#: admin/views/settings_taxonomy_option_page.php:111
+#: src/Falang/Table/FOptions.php:202 src/Falang/Table/FStrings.php:294
+#: src/Falang/Table/Languages.php:67 src/Falang/Table/Menu.php:195
+#: src/Falang/Table/Menu.php:197 src/Falang/Table/Post.php:267
+#: src/Falang/Table/Post.php:269 src/Falang/Table/Term.php:244
+msgid "Edit"
+msgstr ""
+
+#: admin/views/settings_taxonomy_option_page.php:123
+msgid "Translatable Taxonomy fields"
+msgstr ""
+
+#: admin/views/settings_taxonomy_option_page.php:126
+#: src/Falang/Table/FOptions.php:50 src/Falang/Table/FStrings.php:65
+#: src/Falang/Table/Languages.php:178 src/Falang/Table/Post.php:111
+msgid "Name"
+msgstr ""
+
+#: admin/views/settings_taxonomy_option_page.php:127
+msgid "Slug"
+msgstr ""
+
+#: admin/views/settings_taxonomy_option_page.php:134
+msgid "Translatable Term meta"
+msgstr ""
+
+#: admin/views/terms-edit-form.php:44
+msgid "Term slug"
+msgstr ""
+
+#: admin/views/terms-edit-form.php:48
+msgid "Term description."
+msgstr ""
+
+#. accessibility text, %s is a native language name
+#: src/Falang/Core/Admin_Links.php:92
+#, php-format
+msgid "Translate: %s"
+msgstr ""
+
+#: src/Falang/Core/Falang_Mo.php:22
+msgid "String translations"
+msgstr ""
+
+#: src/Falang/Core/FString.php:56
+msgid "Widget title"
+msgstr ""
+
+#: src/Falang/Core/FString.php:57
+msgid "Widget text"
+msgstr ""
+
+#. accessibility text
+#: src/Falang/Core/Language.php:102 src/Falang/Table/Languages.php:123
+#, php-format
+msgid "Flags %s"
+msgstr ""
+
+#: src/Falang/Core/Language_Switcher.php:40
+msgid "Displays as a dropdown"
+msgstr ""
+
+#: src/Falang/Core/Language_Switcher.php:41
+msgid "Displays language names"
+msgstr ""
+
+#: src/Falang/Core/Language_Switcher.php:42
+msgid "Displays flags"
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:209
+msgid "Impossible to add the language"
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:230
+msgid ""
+"The language was created, but the WordPress language file was not downloaded."
+" Please install it manually."
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:249
+msgid "Language added"
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:345
+msgid "Language updated"
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:361
+msgid "Enter a valid WordPress locale"
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:366
+msgid "The language code contains invalid characters"
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:372
+msgid "The language code must be unique"
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:379
+msgid "The language must have a name"
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:384
+msgid "The flag does not exist"
+msgstr ""
+
+#: src/Falang/Model/Falang_Model.php:452
+msgid "Language deleted"
+msgstr ""
+
+#: src/Falang/Table/FOptions.php:184
+msgid "Multiple values"
+msgstr ""
+
+#: src/Falang/Table/FOptions.php:206 src/Falang/Table/Post.php:273
+#: src/Falang/Table/Term.php:248
+msgid "Delete Post data for this translation"
+msgstr ""
+
+#. $3%s
+#. esc_js( __( 'You are about to permanently delete this translation. Are you sure?', 'falang' ) ),
+#: src/Falang/Table/FOptions.php:208 src/Falang/Table/FStrings.php:301
+#: src/Falang/Table/Menu.php:204 src/Falang/Table/Post.php:276
+#: src/Falang/Table/Term.php:251
+msgid "Delete"
+msgstr ""
+
+#: src/Falang/Table/FStrings.php:64
+msgid "String"
+msgstr ""
+
+#: src/Falang/Table/FStrings.php:66
+msgid "Group"
+msgstr ""
+
+#. accessibility text
+#: src/Falang/Table/FStrings.php:248
+msgid "Filter by group"
+msgstr ""
+
+#: src/Falang/Table/FStrings.php:254
+msgid "View all groups"
+msgstr ""
+
+#. $1%s
+#: src/Falang/Table/FStrings.php:298
+msgid "Delete this translation"
+msgstr ""
+
+#: src/Falang/Table/Languages.php:144
+msgid "Select as default language"
+msgstr ""
+
+#. accessibility text, %s is a native language name
+#: src/Falang/Table/Languages.php:147
+#, php-format
+msgid "Choose %s as default language"
+msgstr ""
+
+#. accessibility text
+#: src/Falang/Table/Languages.php:160
+msgid "Default language"
+msgstr ""
+
+#: src/Falang/Table/Languages.php:181
+msgid "Default"
+msgstr ""
+
+#: src/Falang/Table/Languages.php:184
+msgid "Action"
+msgstr ""
+
+#: src/Falang/Table/Menu.php:112 src/Falang/Table/Term.php:111
+msgid "ID"
+msgstr ""
+
+#: src/Falang/Table/Menu.php:201
+msgid "Delete Menu data for this translation"
+msgstr ""
+
+#: src/Falang/Table/Post.php:217
+msgid "Filter by Post Type"
+msgstr ""
+
+#: src/Falang/Table/Post.php:227
+msgid "Filter"
+msgstr ""
+
+#: src/Falang/Table/Term.php:99
+msgid "Original"
+msgstr ""
+
+#: src/Falang/Table/Term.php:100
+msgid "Context"
+msgstr ""
+
+#: src/Falang/Table/Term.php:242
+msgid "Translatable Term"
+msgstr ""
+
+#: src/Falang/Filter/Admin/Classic_Editor.php:94
+msgid "Select Language visibility"
+msgstr ""
+
+#: src/Falang/Filter/Admin/Classic_Editor.php:139
+msgid "Debug"
+msgstr ""
+
+#: src/Falang/Filter/Admin/Filters_WC_Columns.php:80
+msgid "Atribute Name"
+msgstr ""
+
+#: src/Falang/Filter/Admin/Filters_WC_Columns.php:89
+msgid "Atribute Slug"
+msgstr ""
+
+#: src/Falang/Filter/Admin/Nav_Menu.php:38
+msgid "Language switcher"
+msgstr ""
+
+#: src/Falang/Filter/Admin/Nav_Menu.php:68
+msgid "Add to Menu"
+msgstr ""
+
+#. Name of the plugin
+msgid "Falang multilanguage for WordPress"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds multilingual capability to WordPress"
+msgstr ""
+
+#. URI of the plugin
+msgid "www.faboba.com/falangw/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Faboba"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "www.faboba.com"
+msgstr ""

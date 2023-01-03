@@ -1,0 +1,364 @@
+= 1.3.31 (15/11/2022) =
+* Wordpress 6.1 compatible
+* disabled content translation for supported builder ex Divi, Elementor, Yootheme, WPBakery with falang_is_supported_builder filter
+* add filter to disabled translation link on post page (falang_display_translation_link)
+* fix notice on update
+
+= 1.3.30 (04/10/2022) =
+* add no_autop parameter (like Advanced Editor tool)
+* add readonly text on source post translation page
+* fix Notice when a new Falang version is available
+* fix bug on default language (the site language was not set correctly)
+* display message on language configuration problem (Site language not the same with Falang default language.
+* fix php 8 warning on Yoast filter
+
+= 1.3.29 (26/07/2022) =
+* add Google translation service
+* add custom meta action thanks to @frogerme
+* change meta post field translation to textarea
+* add free message on post/menu translation page
+
+= 1.3.28 (27/06/2022) =
+* WC: add product title translation when $product->get_title() is used
+* fix string translation containing >
+* fix esc_textarea missing (backend)
+* fix License tab name
+
+= 1.3.27 (31/05/2022) =
+* WordPress 6.0 compatible
+* change flatsome detection for extra filter
+* fix wc category description (regression due to flatsome support)
+* add filter for translate_post_content (readmore fix)
+* fix for Yoast
+* add filter falang_translate_post_content (use for readmore)
+* remove permastruct for wpbingo footer
+* add a message with the auto dectect language
+
+= 1.3.26 (06/04/2022) =
+* fix uninstall bug when data removed.
+* add Flatsome support (portfolio link with category fix)
+* add Flatsome quickview support (new $ajax_action_list for falang public call)
+* fix bug translate meta (modern event calendar support)
+* add filter falang_get_translated_url (user demand)
+* add positioning for falangsw (falang switcher shortcode)
+* fix woocommerce translation (flatsome ajax query)
+* add filter falang_translate_custom_post_link (flatsome support)
+
+= 1.3.25 (08/03/2022) =
+* fix bug on cart-checkout link.
+* fix admin message display
+* fix notice on translate post type archive link
+
+= 1.3.24 (21/02/2022) =
+* fix admin notices
+* add associaton system
+* add support for language switcher association on page
+* fix wc ajax (cart-checkout link on front-end)
+* add filter for translate_nav_menu_item (use for yootheme / display title without the_filter title for custom menu item)
+* improve support of RankMath for sitemap. (url filtering/url translation)
+* add update pro notice
+* add licence tab in settings
+* load jquery tiptip only on falang settings page
+* fix bug on falang options saving
+
+= 1.3.23 (26/01/2022) =
+* new admin notice system
+* WordPress 5.9 compatible
+* update lingvanex language code
+* Fix translation page (hide title, slug, content, excerpt when not enabled for translation)
+* fix cpt rule generation notice
+
+= 1.3.22 (03/01/2022) =
+* fix notice on dropdown language list
+* add falangsw shortcode to add language switcher by shortcode
+* display_names option rename to display_name (both exist)
+* fix meta translation bug
+* change Taxonomy constructor signature
+* php8 compatible
+
+= 1.3.21 (09/12/2021) =
+* fix error on dropdown language list
+* fix notice on language widget (backend)
+
+= 1.3.20 (07/12/2021) =
+* fix editor source and destination behavior when switching between visual and text view
+* shy and nbsp are preserved
+* non-breaking-dash (nbh) functions and is preserved if using numeric (# 8209)
+* no root block p tags added
+* no br tags to paragraph conversion
+* added option to upload/delete custom flags
+* fix “show slug for main language” which caused WP theme editor to not save
+* new option to specify width and height of flags
+* new option for custom flags upload
+* add new additional languages flags
+* fix Yoast notice
+* fix permalink automatically when a new language is added
+* fix notice on add language
+
+= 1.3.19 (09/11/2021) =
+- improve YOOTheme Builder support
+- add advanced woo search support
+- fix translator service bug (Azure, Yandex, Lingvanex)
+
+= 1.3.18 (20/10/2021) =
+- improve autodetect language detection and redirect
+- fix 404 when slug change in page translation
+- improve acf translation
+- improve post translation page
+- fix security Cross-Site scripting issue.
+
+= 1.3.17 (21/09/2021) =
+- fix attachment translation filter
+- improve translation post page
+- improve translation menu page
+
+= 1.3.16 (23/07/2021) =
+- fix WordPress 5.8 widget page error
+- add custom notices for other Falang product
+
+= 1.3.15 (21/07/2021) =
+- support WordPress 5.8
+- fix product not translated in WooCommerce cart
+- fix product not translated in WooCommerce thankyou page
+- Falang post/menu to display only items with status published/pending/draft/future/private
+- add support for YOOtheme template translation
+- fix yoast notice front $data['@type'] is no more an array
+
+= 1.3.14 (15/06/2021) =
+- fix bug with Divi due to wpml-config string loading.
+- fix paged page rules
+
+= 1.3.13 (08/06/2021) =
+- fix auto detect language (needs to have show slug for main language)
+- change string translation system
+- fix clean string
+- remove falang options on uninstall (falang_wpml_strings,falang_dismissed_notices)
+- fix url with double language prefix (ex widget sorting from savoy theme) thanks jurij_c
+
+= 1.3.12 (08/05/2021) =
+* support wc shop base with category
+* improve string translation search and navigation
+* allow special characters in cpt url
+* fix height for options/string thickbox
+* change French translation
+* change post_type_link priority
+
+= 1.3.11 (22/04/2021) =
+* fix menu translation
+* change translate the_title signature for filter not passing the id
+* string translation popup can be resized.
+* fix bug for widget with empty title string
+
+= 1.3.10 (01/04/2021) =
+* improve menu page list
+* fix comment redirection
+* store locale of the comment in comment meta table (for future use)
+* language switcher redirect to home When a post/page is restricted to one language
+* fix ajax delete item (menu/term/post/options)
+* fix edit menu (custom menu saving)
+* improve string translation cache performance (thanks jurij_c)
+
+= 1.3.9 (23/03/2021) =
+* improve options translation page
+* add ordering system on Languages
+* fix Ukrainian language code
+* add Swahili language
+
+= 1.3.8 (15/02/2021) =
+* Add attachment translation directly in media popup
+* Add search on translated language
+* Add Rank math suport
+* Add Yoast Seo Filter (for new Yoast vesrion 1.5)
+* fix woocommerce save settings making 404
+* change the_content priority from 9 to 8 for display work type plugin working
+
+= 1.3.7 (20/01/2021) =
+* add hreflang support
+* fix term link translation (fix category language switcher)
+* fix bug on firefox on save option
+* fix published on categorie/tag translation pages
+
+= 1.3.6 (04/01/2021) =
+* add image caption translation
+* support WordPress 5.6
+* add widget page filtering for page set with a specific language
+* add Mexican language for all translation service
+* add French Canadian for Azure service
+* change yandex to the new cloud service (curl method/ajax don't work)
+* change deprecated js function.
+* fix language code for bing translate service
+* add support for Multi-column Tag Map (fix the_title filter)
+* fix bug when en_US removed with en_GB added (no more possible to activate)
+
+= 1.3.5 (02/12/2020) =
+* add bing translation sysem
+* add lingvanex translation system
+* fix p tag in classic editor on falang page
+* fix rewrite rules for Post page (page_for_posts)
+* change alt on image flags display only name
+
+= 1.3.4 (02/11/2020) =
+* change published/unpublished toggle
+* add user profile Biographical Info translation (for authorboxes)
+* fix HTML attributes in title and meta input display
+* fix HTML closing tag in WooCommerce attributes translation
+* fix parent construct in Admin filter
+
+= 1.3.3 (07/10/2020) =
+* fixed language restricted visibility in blog overview
+* fix wpautop to not add p and br tags in editor text view
+* fix post translation page filter values during navigation and editing
+* language page set locale to readonly
+* fix woocommerce variation displayed even when not published
+* empty translation fields or meta are not saved anymore (key removed when empty strlen > 0)
+* fix get_meta when post/term unpublished
+* fix display error message on language add/update
+* add [save & close] to post translation page, [save] doesn't close the page
+* fix elemetor preview when default slug is in url.
+* fix has_archive notice
+* fix redirect when page/post not published
+
+= 1.3.2 (02/09/2020) =
+* Add WPML-config support
+* Fix language switcher in all menu positions (Enfold)
+* Fix post excerpts translation (Enfold)
+* Fix translation menu entries (Enfold)
+* Fix translation post titles (Enfold)
+* Fix heading titles in browser tabs
+* Fix cookie notice translation (GDPR Cookie Consent)
+* Change WooCommerce filter in a Filter class
+* Fix WooCommerce product variation description translation
+* Fix Falang Settings tabs (WordPress 5.5 / PHP 7.4)
+* Fix String translation
+* Fix French translation
+* Fix permalinks on deactivation
+
+= 1.3.1 (28/07/2020) =
+* add language switcher in menu
+* add filter for enfold excerpt (post grid)
+* add shortcode falang (lang="en_US")
+* fix head title tag translation
+* fix attribute for woocommerce
+* fix pot falang file
+* language corrections & Capitalization (thanks Rob de Cleen)
+* fix home url for different home page by languages
+* add help page
+
+= 1.3 (29/06/2020) =
+* add display category and tag translation in wp admin
+* nav_menu_item is set translatable by default on install
+* post_tag is set translatable by default on install
+* woocommerce reformat attribute page translation
+* woocommerce display atribute translation in table
+* atachement is translatable
+* change term translation page display
+* change menu translation page display
+* change posts/.... translation page display
+* taxonomy can be saved even if not enabled in settings
+* fix bug on woocommerce endpoint translation
+* fix warning message on save settings
+
+= 1.2.3 (05/06/2020) =
+* fix short description display
+* fix preview url in post/product
+* fix excerpt translation problem
+* add debug display for post
+* fix language list target on post page
+
+= 1.2.2 (02/06/2020) =
+* add woocommerce short description support
+* post_excerpt translation changed to textarea
+
+= 1.2.1  (01/06/2020) =
+* add Divi support.
+* add woocommerce attributes support
+* fix post_name save now sanitized
+* fix rewrite_rules problem
+* fix update settings warning
+
+= 1.2 (12/05/2020) =
+* add print_language_switch action (display switcher by code in template)
+* add language image on post translation page
+* change source and target position
+* add hide source on post translation page
+* add filter by language in widget
+* add first activation notice
+* modify display in translation page
+
+= 1.1 (28/04/2020) =
+* add wpml compatiblity for string translation <3.2 and >3.2
+* add filter by string context
+* add string group filtering
+* add display string translated and not not translated
+* fix publish on post
+* fix option slash save
+* fix string delete
+
+= 1.0.7 (17/04/2020) =
+* improve options translation speed and memory
+* fix 404 when show_slug is on
+* fix post notice translation.
+* add page_on_front to option translation
+
+= 1.0.6(30/03/2020) =
+* add ID column to the post,term,menu translation page
+* fix display problem on post/page/woocommerce product page.....
+* fix bug on page to display published status
+* fix display for block content loose <p>
+* fix display on text input view in wp_editor
+
+= 1.0.5 =
+* add post type filter in post translation page.
+
+= 1.0.4 =
+* fix frontend warning and notice
+* fix backend translate menu display
+* fix backend translate title display
+* fix backend previous value for custom menu translation
+
+= 1.0.3 =
+* fix warning on settings page
+* fix Walker Dropdown walk message argument
+* fix button display on post translation page
+* compatible with Wordpress 5.3
+* fix notice on term list translation page
+
+= 1.0.2 =
+* Add Falang icon
+* Remove edit/delete row action for post with specific language
+* widget echo missing on title
+
+= 1.0.1 =
+* change Author to entreprise name
+
+= 1.0.0 =
+* Refactor add language page
+* use select2 to show flags in the list
+* Add confirmation message on language delete.
+
+= 0.9.3 =
+* Fix bug when show slug for main language slug was set to false
+* Fix save settings translate option
+
+= 0.9.2 =
+* Fix post meta translation
+* Add term filter on term translation page
+* Add display translation on term translation page
+* Add translation status on term translation page
+* Add menu filter on menu translation page
+* Add display translation on menu translation page
+* Add translation status on menu translation page
+
+= 0.9.1 =
+* Fix yandex translation call for non english default language
+* Fix iso code
+* Fix khmer iso code
+* Add language flag on Header table
+* Fix posts page default language
+* Fix pages page default language
+* Add filter by post_title in posts translation page
+* Add published display in posts translation page
+* Add translation or native title display in posts translation page
+
+= 0.9 =
+* Initial release

@@ -1,0 +1,16 @@
+{
+  "name": "Falang",
+  "description": "Adds multilingual capability to WordPress",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Stéphane BOUEY",
+      "email": "stephane.bouey@faboba.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Falang\\": "src/Falang/"
+    }
+  }
+}
