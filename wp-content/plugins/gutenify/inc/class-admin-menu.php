@@ -38,7 +38,7 @@ class Gutenify_Admin_Menu {
 			'manage_options',
 			'gutenify',
 			array( &$this, 'getting_started_page_callback' ),
-			'data:image/svg+xml;base64,' . base64_encode( file_get_contents( GUTENIFY_BRAND_LOGO ) ),
+			'data:image/svg+xml;base64,' . base64_encode( GUTENIFY_BRAND_LOGO ),
 			90
 		);
 		// add_submenu_page(
@@ -59,7 +59,7 @@ class Gutenify_Admin_Menu {
 			array( &$this, 'demo_importer_page_callback' )
 		);
 
-		if ( defined( 'WP_DEBUG' ) ) {
+		if ( defined( 'WP_CY_DEBUG' ) ) {
 			add_submenu_page(
 				'gutenify',
 				__( 'Gutenify Startup' ),

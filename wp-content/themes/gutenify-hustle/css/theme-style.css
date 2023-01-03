@@ -15,7 +15,7 @@
 .wp-block-navigation ul li.current-menu-item > a {
     color: var(--wp--preset--color--primary);
 }
-
+.wp-block-group.wp-container-4{flex-wrap:nowrap;gap:0px;justify-content:flex-start;}
 
 input[type="button"],
 input[type="reset"],

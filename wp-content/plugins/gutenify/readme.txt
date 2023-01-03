@@ -1,11 +1,11 @@
 === Gutenify - Gutenberg Advance Fullsite Editing Blocks & site templates. ===
-Contributors: gutenifydev
+Contributors: codeyatri, gutenifydev
 Tags: block, blocks, editor, gutenberg, gutenberg blocks, Count down, Google Maps
 Donate link: https://gutenify.com/
 Requires at least: 5.9
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 5.5
-Stable tag: 1.2.5
+Stable tag: 1.2.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,8 +15,8 @@ Gutenify is a free WordPress plugin which allows you to add different block effo
 Gutenify collection of Gutenberg Advance Fullsite Editing Blocks & site templates that is compatible with WordPress Full Site Editing to help you create the website you always wanted.
 Gutenify is a free WordPress plugin which allows you to add different block effortlessly in your site. With a collection of page building WordPress blocks for the new WordPress block editor you can build your site very quickly.
 
-> **🏆 [Site Demos](https://gutenify.com/template-kits/)**
-> Site Demos are pre built demo that can help setup your site within few clicks in minutes. To use our demo you will have to import our pre-build demos with few simple clicks, after that you will get set of sample pages that can be easily edited by using default WordPress editor. For more info on Site Demos, checkout our [documentation](https://gutenify.com/documentations/template-kits/)
+> **🏆 [Site Demos](https://gutenify.com/site-demos/)**
+> Site Demos are pre built demo that can help setup your site within few clicks in minutes. To use our demo you will have to import our pre-build demos with few simple clicks, after that you will get set of sample pages that can be easily edited by using default WordPress editor. For more info on Site Demos, checkout our [documentation](https://gutenify.com/documentations/import-demo-templates/)
 
 > **🎉 Patterns**
 > Patterns are in built section which can be easily added on page/posts. You can also create your own patterns and add sections accordingly for future use. With the help of patterns, you can easily add pre-built sections to your page in few clicks. For more info on patterns, checkout our [documentation](https://gutenify.com/documentations/what-are-templates-how-do-we-add-templates-in-our-page-posts/)
@@ -179,7 +179,7 @@ Note: Please take a backup your site before importing Site Demo.
 * Click on the Demo that matches your site, before importing demo we recommend you to click on "Demo” which will give you idea about how your theme will look after importing demo
 ( Click on “Demo import" button, it will open popup, then click "Start Import" button to initiate import.)
 * If you change the theme of your WordPress site, please re-import the demo. Changing the theme after importing can cause unwanted design issues.
-* More info: [https://gutenify.com/documentations/template-kits/](https://gutenify.com/documentations/template-kits/)
+* More info: [https://gutenify.com/documentations/import-demo-templates/](https://gutenify.com/documentations/import-demo-templates/)
 
 [FAQs and documentations](https://gutenify.com/documentations/)
 
@@ -197,6 +197,15 @@ For support, [go to our support page](https://gutenify.com/support).
 Before updating plugin please check ["our latest release notes"](http://gutenify.com/).
 
 == Changelog ==
+
+= 1.2.7 =
+Dec 26, 2022
+* Update Contributors.
+
+= 1.2.6 =
+Dec 7, 2022
+* [Fix] Minor issues
+* Compatibility testing with WP 6.1.
 
 = 1.2.5 =
 Nov 23, 2022

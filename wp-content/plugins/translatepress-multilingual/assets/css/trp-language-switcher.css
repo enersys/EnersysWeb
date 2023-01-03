@@ -19,17 +19,12 @@
     display: inline-block;
     padding: 0;
     border: 0;
-    margin: 2px;
-    box-sizing: border-box;
+    margin: 1px;
 }
 
 
 .trp-language-switcher > div {
-    box-sizing: border-box;
-
     padding:3px 20px 3px 5px;
-
-
     background-image:
             linear-gradient(45deg, transparent 50%, gray 50%),
             linear-gradient(135deg, gray 50%, transparent 50%);
